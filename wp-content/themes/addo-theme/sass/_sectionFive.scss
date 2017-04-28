@@ -1,0 +1,109 @@
+#section-five {
+    background: #e51355;
+    .map-container {
+        width: 100%;
+        height: 60vh;
+        // background: red;
+        position: relative;
+        @media only screen and (max-width: 992px) {
+            margin-top: 20%;
+        }
+        .map {
+            width: 100%;
+            height: 80%;
+        }
+        #cloud-one {
+            position: absolute;
+            position: absolute;
+            bottom: 0%;
+            left: -10%;
+            width: 39%;
+            ;
+        }
+        #cloud-two {
+            position: absolute;
+            bottom: 3%;
+            left: 69%;
+            width: 15%;
+        }
+        #cloud-three {
+            position: absolute;
+            top: -20%;
+            left: 28%;
+            width: 30%;
+        }
+        #cloud-four {
+            position: absolute;
+            top: 20%;
+            left: -12%;
+            width: 10%;
+        }
+        #star-one {
+            position: absolute;
+            bottom: -4%;
+            left: 45%;
+            width: 5%;
+        }
+        #star-two {
+            position: absolute;
+            top: -12%;
+            right: 30%;
+            width: 4%;
+        }
+        #star-three {
+            position: absolute;
+            top: -25%;
+            left: 53%;
+            width: 3%;
+        }
+        #star-four {
+            position: absolute;
+            top: -15%;
+            left: 12%;
+            width: 5%
+        }
+        #star-five {
+            position: absolute;
+            top: -27%;
+            left: 30%;
+            width: 3%;
+        }
+        #star-six {
+            position: absolute;
+            top: 6%;
+            left: -7%;
+            width: 4%;
+        }
+        #aeroplane {
+            position: absolute;
+            bottom: 0%;
+            left: 12%;
+            width: 50%;
+            z-index: 1000;
+        }
+    }
+    .content-container {
+        width: 100%;
+        height: 100%;
+        float: right;
+        position: relative;
+        .content {
+            // position: absolute;
+            // left: 15%;
+            // top: 50%;
+            // transform: translate(-15%, -50%);
+            // max-width: 85%;
+            // padding-right: 80px;
+            h1 {
+                text-transform: uppercase;
+                color: #fff;
+            }
+            h2 {
+                color: $sub_title_color;
+            }
+            p {
+                color: #fff;
+            }
+        }
+    }
+}

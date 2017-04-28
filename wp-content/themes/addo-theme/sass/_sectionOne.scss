@@ -1,0 +1,99 @@
+#section-one {
+    background: #f0c30f;
+    /* Old Browsers */
+    background: -webkit-linear-gradient(top, #f0c30f, #f38848);
+    /*Safari 5.1-6*/
+    background: -o-linear-gradient(top, #f0c30f, #f38848);
+    /*Opera 11.1-12*/
+    background: -moz-linear-gradient(top, #f0c30f, #f38848);
+    /*Fx 3.6-15*/
+    background: linear-gradient(to bottom, #f0c30f, #f38848);
+    /*Standard*/
+    .feature-container {
+        max-width: 50vw;
+        display: block;
+        margin: 0 auto;
+        img {
+            width: 100%;
+            height: auto;
+            margin-top: 10vh;
+            @media only screen and (min-width: 300px) and (max-width: 767px) {
+                margin-top: 18vh;
+            }
+        }
+        @media only screen and (min-width: 300px) and (max-width: 767px) {
+            max-width: 80%;
+        }
+    }
+    .typed-cursor {
+        opacity: 1;
+        -webkit-animation: blink 0.7s infinite;
+        -moz-animation: blink 0.7s infinite;
+        animation: blink 0.7s infinite;
+    }
+    @keyframes blink {
+        0% {
+            opacity: 1;
+        }
+        50% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    @-webkit-keyframes blink {
+        0% {
+            opacity: 1;
+        }
+        50% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    @-moz-keyframes blink {
+        0% {
+            opacity: 1;
+        }
+        50% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    .text-center {
+        text-align: center;
+        color: #fff;
+        @media only screen and (min-width: 300px) and (max-width: 450px) {
+            font-size: 2em;
+        }
+    }
+    .flags-container {
+        display: none; //REMOVE TO IMPLEMENT POLYLANG - STAGE TWO
+        padding: 30px 0;
+        text-align: center;
+        ul {
+            list-style: none;
+            li {
+                display: inline-block;
+                margin: 10px;
+                height: 50px;
+                width: 50px;
+                border-radius: 50%;
+                position: relative;
+                overflow: hidden;
+                img {
+                    width: 100px;
+                    position: absolute;
+                    left: -14px;
+                }
+                .spain {
+                    top: -13px;
+                }
+            }
+        }
+    }
+}
