@@ -17,13 +17,13 @@
  *
  * @package WordPress
  */
-if ($_SERVER['SERVER_NAME'] == 'www.addoplay.com.gridhosted.co.uk' || $_SERVER['SERVER_NAME'] == 'addoplay.com.gridhosted.co.uk') {
+if ($_SERVER['SERVER_NAME'] == 'addoplay.com.gridhosted.co.uk' || $_SERVER['SERVER_NAME'] == 'www.addoplay.com.gridhosted.co.uk') {
     $dbName = 'addoplay_db';
     $dbUser = 'addoplay_db';
     $dbPassword = 'Develop100%';
     $dbHost = '10.169.0.142';
-    define('WP_HOME','http://www.addoplay.com.gridhosted.co.uk');
-    define('WP_SITEURL','http://www.addoplay.com.gridhosted.co.uk');    
+    define('WP_HOME','http://addoplay.com.gridhosted.co.uk/');
+    define('WP_SITEURL','http://addoplay.com.gridhosted.co.uk/');    
 } else {
     $dbName = 'addoplay_db';
     $dbUser = 'addoplay_db';
@@ -44,7 +44,7 @@ define('DB_USER',  $dbUser);
 define('DB_PASSWORD', $dbPassword);
 
 /** MySQL hostname */
-define('DB_HOST', 'localhost');
+define('DB_HOST', $dbHost);
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
