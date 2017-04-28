@@ -42,7 +42,7 @@
     <!-- HEADER & NAV -->
     <nav class="nav-fixed">
         <div class="nav-menu">
-            <img src="assets/img/addo_logo.svg" atl="Addo Logo" />
+            <img src="<?php bloginfo('template_directory');?>/assets/img/addo_logo.svg" atl="Addo Logo" />
             <ul>
                 <li><a href="#Home">Home</a></li>
                 <li><a href="#AboutUs">About Us</a></li>

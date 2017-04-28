@@ -1,3 +1,6 @@
+.logged-in #nav_list {
+  margin-top: 32px; }
+
 .nav-fixed {
   position: fixed;
   top: 0;
