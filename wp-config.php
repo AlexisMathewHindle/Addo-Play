@@ -80,6 +80,12 @@ define('NONCE_SALT',       '$oLau[;:jq,vf;;D}Fm3j4X_zC#.>4qYV;+- =-Mgd]sQ+X$jQc=
  */
 $table_prefix  = 'addo_';
 
+
+// Match any requests made via xip.io.
+if ( isset( $_SERVER['HTTP_HOST'] ) && preg_match('/^(local.wordpress.)\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}(.xip.io)\z/', $_SERVER['HTTP_HOST'] ) ) {
+    define( 'WP_HOME', 'http://' . $_SERVER['HTTP_HOST'] );
+    define( 'WP_SITEURL', 'http://' . $_SERVER['HTTP_HOST'] );
+}
 /**
  * For developers: WordPress debugging mode.
  *
