@@ -3,7 +3,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    z-index: -100;
+    z-index: 1042;
     @media only screen and (max-width: 767px) {
         height: 100%;
         // z-index: 0;
@@ -33,7 +33,7 @@
 }
 
 .js-buttonset {
-    top: 23%;
+    top: 30%;
     transition: all 0.6s linear;
     @media only screen and (max-width: 767px) {
         top: 0;

@@ -14,33 +14,7 @@
 
 
 <?php wp_footer(); ?>
-            <!-- FOOTER -->
 
-            <!--<div class="section fp-auto-height">-->
-            <div class="footer-container footer-container--one">
-                <div class="social-icons">
-                    <ul>
-                        <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                        <li>
-                            <a href="#">
-                                <h1>@addoplay.com</h1>
-                            </a>
-                        </li>
-                    </ul>
-
-                </div>
-            </div>
-            <div class="footer-container footer-container--two"></div>
-            <div class="footer-container footer-container--three"></div>
-            <div class="footer-container footer-container--four"></div>
-
-            <!-- END OF FOOTER -->
-        </div>
-    </div>
-
-    <!-- /container -->
 
 
    

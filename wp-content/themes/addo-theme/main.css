@@ -6,7 +6,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  z-index: -100; }
+  z-index: 1042; }
   @media only screen and (max-width: 767px) {
     .nav-fixed {
       height: 100%; } }
@@ -29,7 +29,7 @@
     right: 277px; }
 
 .js-buttonset {
-  top: 23%;
+  top: 30%;
   transition: all 0.6s linear; }
   @media only screen and (max-width: 767px) {
     .js-buttonset {
@@ -862,10 +862,10 @@ img {
   width: 100%; }
 
 #footer {
-  height: 200px !important; }
+  height: 230px !important; }
   @media only screen and (max-width: 992px) {
     #footer .fp-tableCell {
-      height: 200px !important; } }
+      height: 230px !important; } }
 
 .footer-container {
   width: 100%;
