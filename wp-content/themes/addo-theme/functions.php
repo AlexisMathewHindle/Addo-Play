@@ -141,3 +141,9 @@ require get_template_directory() . '/inc/customizer.php';
  * Load Jetpack compatibility file.
  */
 require get_template_directory() . '/inc/jetpack.php';
+
+function wpdocs_excerpt_more( $more ) {
+    return '<button class="cloud-btn"><a href="'.get_the_permalink().'" rel="nofollow">Read More...</a></button>';
+}
+add_filter( 'excerpt_more', 'wpdocs_excerpt_more' );
+

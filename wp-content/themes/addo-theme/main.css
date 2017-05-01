@@ -119,6 +119,14 @@
         color: #fff;
         font-size: 20px; }
 
+.single-post {
+  background: red; }
+
+.news-container article {
+  max-width: 70%;
+  display: block;
+  margin: 10% auto; }
+
 #section-one {
   background: #f0c30f;
   /* Old Browsers */
