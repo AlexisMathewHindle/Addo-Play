@@ -12,13 +12,13 @@
                 <img src="assets/img/french_flag.svg" alt="" />
             </li>
             <li>
-                <img class="spain" src="assets/img/spain_flag.svg" alt="" />
+                <img class="spain" src="<?php bloginfo('template_directory');?>/assets/img/spain_flag.svg" alt="" />
             </li>
             <li>
-                <img src="assets/img/french_flag.svg" alt="" />
+                <img src="<?php bloginfo('template_directory');?>/assets/img/french_flag.svg" alt="" />
             </li>
             <li>
-                <img class="spain" src="assets/img/spain_flag.svg" alt="" />
+                <img class="spain" src="<?php bloginfo('template_directory');?>/assets/img/spain_flag.svg" alt="" />
             </li>
         </ul>
     </div>

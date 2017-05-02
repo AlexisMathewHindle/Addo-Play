@@ -10,7 +10,32 @@
 
 // ADVANCED CUSTOM FIELDS //
 
-// THE TEAM //
+// BRANDS MODAL CONTENT //
+$snuggle_bunnies_left_content = get_field('snuggle_bunnies_left_content');
+$snuggle_bunnies_content      = get_field('snuggle_bunnies_content');
+$pitter_patter_left_content   = get_field('pitter_patter_left_content');
+$pitter_patter_content        = get_field('pitter_patter_content');
+$storm_blasters_left_content  = get_field('storm_blasters_left_content');
+$storm_blasters_content       = get_field('storm_blasters_content');
+$ready_steady_left_content    = get_field('ready_steady_left_content');
+$ready_steady_content         = get_field('ready_steady_content');
+$bobble_it_left_content       = get_field('bobble_it_left_content');
+$bobble_it_content            = get_field('bobble_it_content');
+$awesome_animals_left_content = get_field('awesome_animals_left_content');
+$awesome_animals_content      = get_field('awesome_animals_content');
+$busy_me_left_content         = get_field('busy_me_left_content');
+$busy_me_content              = get_field('busy_me_content');
+$unique_boutique_left_content = get_field('unique_boutique_left_content');
+$unique_boutique_content      = get_field('unique_boutique_content');
+$out_of_the_box_left_content  = get_field('out_of_the_box_left_content');
+$out_of_the_box_content       = get_field('out_of_the_box_content');
+$out_to_impress_left_content  = get_field('out_to_impress_left_content');
+$out_to_impress_content       = get_field('out_to_impress_content');
+$out_there_left_content       = get_field('out_there_left_content');
+$out_there_content            = get_field('out_there_content');
+$experimake_left_content      = get_field('experimake_left_content');
+$experimake_content           = get_field('experimake_content');
+
 
 
 get_header(); ?>
@@ -56,7 +81,11 @@ get_header(); ?>
 
             </div>
         </div>
-        <div class="footer-container footer-container--two"></div>
+        <div class="footer-container footer-container--two">
+           <p style="float: left;">	&copy; <?php echo date("Y"); ?> Copyright. <span>All rights reserved.</span></p> 
+           <p style="float: right;">Please <a href="<?php get_site_url();?>/privacy-policy/">click here</a> to our the privacy policy</p>
+
+        </div>
         <div class="footer-container footer-container--three"></div>
         <div class="footer-container footer-container--four"></div>
 
@@ -375,7 +404,7 @@ get_header(); ?>
                         </div>
                         <div class="col-md-3">
                             <div class="brand-container">
-                                <div class="brand-btn brandTen" data-to="11" data-toggle="modal" data-target="#brandSlider">
+                                <div class="brand-btn brandEleven" data-to="11" data-toggle="modal" data-target="#brandSlider">
                                     <img src="<?php bloginfo('template_directory');?>/assets/img/coming_soon_fill.png" class="img-responsve twentFirst-img" />
                                     <img src="<?php bloginfo('template_directory');?>/assets/img/toy_fill.png" class="img-responsve twentySecond-img" alt="" />
                                 </div>
@@ -383,7 +412,7 @@ get_header(); ?>
                         </div>
                         <div class="col-md-3">
                             <div class="brand-container">
-                                <div class="brand-btn brandTen" data-to="12" data-toggle="modal" data-target="#brandSlider">
+                                <div class="brand-btn brandTwelve" data-to="12" data-toggle="modal" data-target="#brandSlider">
                                     <img src="<?php bloginfo('template_directory');?>/assets/img/coming_soon_fill.png" class="img-responsve twentyThird-img" />
                                     <img src="<?php bloginfo('template_directory');?>/assets/img/toy_fill.png" class="img-responsve twentyFourth-img" alt="" />
                                 </div>
@@ -406,9 +435,6 @@ get_header(); ?>
             </div>
             <div class="modal-body">
                 <div id="brandsliderCarousel" class="carousel slide" data-interval="false" data-ride="carousel">
-
-
-
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner">
                         <div class="item active">
@@ -418,17 +444,14 @@ get_header(); ?>
                                     <div class="row">
                                         <div class="col-md-6">
                                             <div class="carousel-content--left">
-                                                <iframe src="https://player.vimeo.com/video/202776948?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                                                <?php echo $ready_steady_left_content ;?>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="carousel-content--right">
                                                 <img src="<?php bloginfo('template_directory');?>/assets/img/RSD_logo.png" />
                                                 <h1>Ready Steady Dough</h1>
-                                                <p>We aim to create intelligently designed, safe, ethically sourcesd, trustworthy toys at outstanding value. Children are at the center of everything we do. Attention to detail is paramout from the toy
-                                                    itself to the attractive, celar and informative packaging. Addo Play is driven by an ambitious team of staff whose passion, ethics, energy and fun are channelled into the wide range of product we
-                                                    create.
-                                                </p>
+                                                <?php echo $ready_steady_content;?>
                                                 <button class="cloud-btn">Shop</button>
                                             </div>
 
@@ -444,17 +467,14 @@ get_header(); ?>
                                     <div class="row">
                                         <div class="col-md-6">
                                             <div class="carousel-content--left">
-                                                <iframe src="https://player.vimeo.com/video/202776948?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                                                <?php echo $storm_blasters_left_content;?>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="carousel-content--right">
                                                 <img src="<?php bloginfo('template_directory');?>/assets/img/stormblaster_logo.png" />
                                                 <h1>Storm Blasters</h1>
-                                                <p>We aim to create intelligently designed, safe, ethically sourcesd, trustworthy toys at outstanding value. Children are at the center of everything we do. Attention to detail is paramout from the toy
-                                                    itself to the attractive, celar and informative packaging. Addo Play is driven by an ambitious team of staff whose passion, ethics, energy and fun are channelled into the wide range of product we
-                                                    create.
-                                                </p>
+                                                <?php echo $storm_blasters_content;?>
                                                 <button class="cloud-btn">Shop</button>
                                             </div>
                                         </div>
@@ -468,17 +488,14 @@ get_header(); ?>
                                     <div class="row">
                                         <div class="col-md-6">
                                             <div class="carousel-content--left">
-                                                <iframe src="https://player.vimeo.com/video/202776948?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                                                 <?php echo $snuggle_bunnies_left_content;?>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="carousel-content--right">
                                                 <img src="<?php bloginfo('template_directory');?>/assets/img/SB_logo.png" />
                                                 <h1>Snuggle Bunnies</h1>
-                                                <p>We aim to create intelligently designed, safe, ethically sourcesd, trustworthy toys at outstanding value. Children are at the center of everything we do. Attention to detail is paramout from the toy
-                                                    itself to the attractive, celar and informative packaging. Addo Play is driven by an ambitious team of staff whose passion, ethics, energy and fun are channelled into the wide range of product we
-                                                    create.
-                                                </p>
+                                                <?php echo $snuggle_bunnies_content ;?>
                                                 <button class="cloud-btn">Shop</button>
                                             </div>
                                         </div>
@@ -492,17 +509,14 @@ get_header(); ?>
                                     <div class="row">
                                         <div class="col-md-6">
                                             <div class="carousel-content--left">
-                                                <iframe src="https://player.vimeo.com/video/202776948?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                                               <?php echo $out_to_impress_left_content ;?>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="carousel-content--right">
                                                 <img src="<?php bloginfo('template_directory');?>/assets/img/OTI_logo.png" />
                                                 <h1>Out To Impress</h1>
-                                                <p>We aim to create intelligently designed, safe, ethically sourcesd, trustworthy toys at outstanding value. Children are at the center of everything we do. Attention to detail is paramout from the toy
-                                                    itself to the attractive, celar and informative packaging. Addo Play is driven by an ambitious team of staff whose passion, ethics, energy and fun are channelled into the wide range of product we
-                                                    create.
-                                                </p>
+                                               <?php echo $out_to_impress_content ;?>
                                                 <button class="cloud-btn">Shop</button>
                                             </div>
                                         </div>
@@ -516,17 +530,14 @@ get_header(); ?>
                                     <div class="row">
                                         <div class="col-md-6">
                                             <div class="carousel-content--left">
-                                                <iframe src="https://player.vimeo.com/video/202776948?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                                               <?php echo $awesome_animals_left_content;?>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="carousel-content--right">
                                                 <img src="<?php bloginfo('template_directory');?>/assets/img/AA_logo.png" />
                                                 <h1>Awesome Animals</h1>
-                                                <p>We aim to create intelligently designed, safe, ethically sourcesd, trustworthy toys at outstanding value. Children are at the center of everything we do. Attention to detail is paramout from the toy
-                                                    itself to the attractive, celar and informative packaging. Addo Play is driven by an ambitious team of staff whose passion, ethics, energy and fun are channelled into the wide range of product we
-                                                    create.
-                                                </p>
+                                               <?php echo $awesome_animals_content ;?>
                                                 <button class="cloud-btn">Shop</button>
                                             </div>
                                         </div>
@@ -540,17 +551,14 @@ get_header(); ?>
                                     <div class="row">
                                         <div class="col-md-6">
                                             <div class="carousel-content--left">
-                                                <iframe src="https://player.vimeo.com/video/202776948?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                                                <?php echo $pitter_patter_left_content;?>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="carousel-content--right">
                                                 <img src="<?php bloginfo('template_directory');?>/assets/img/addo_pitter_patter_Logo.png" />
                                                 <h1>Pitter Patter Pets</h1>
-                                                <p>We aim to create intelligently designed, safe, ethically sourcesd, trustworthy toys at outstanding value. Children are at the center of everything we do. Attention to detail is paramout from the toy
-                                                    itself to the attractive, celar and informative packaging. Addo Play is driven by an ambitious team of staff whose passion, ethics, energy and fun are channelled into the wide range of product we
-                                                    create.
-                                                </p>
+                                                <?php echo $pitter_patter_content;?>
                                                 <button class="cloud-btn">Shop</button>
                                             </div>
                                         </div>
@@ -564,17 +572,14 @@ get_header(); ?>
                                     <div class="row">
                                         <div class="col-md-6">
                                             <div class="carousel-content--left">
-                                                <iframe src="https://player.vimeo.com/video/202776948?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                                                <?php echo $out_there_left_content;?>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="carousel-content--right">
                                                 <img src="<?php bloginfo('template_directory');?>/assets/img/OT_logo.png" />
                                                 <h1>Out There</h1>
-                                                <p>We aim to create intelligently designed, safe, ethically sourcesd, trustworthy toys at outstanding value. Children are at the center of everything we do. Attention to detail is paramout from the toy
-                                                    itself to the attractive, celar and informative packaging. Addo Play is driven by an ambitious team of staff whose passion, ethics, energy and fun are channelled into the wide range of product we
-                                                    create.
-                                                </p>
+                                                <?php echo $out_there_content ;?>
                                                 <button class="cloud-btn">Shop</button>
                                             </div>
                                         </div>
@@ -588,17 +593,14 @@ get_header(); ?>
                                     <div class="row">
                                         <div class="col-md-6">
                                             <div class="carousel-content--left">
-                                                <iframe src="https://player.vimeo.com/video/202776948?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                                               <?php echo $busy_me_left_content;?>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="carousel-content--right">
                                                 <img src="<?php bloginfo('template_directory');?>/assets/img/BM_logo.png" />
                                                 <h1>Busy Me</h1>
-                                                <p>We aim to create intelligently designed, safe, ethically sourcesd, trustworthy toys at outstanding value. Children are at the center of everything we do. Attention to detail is paramout from the toy
-                                                    itself to the attractive, celar and informative packaging. Addo Play is driven by an ambitious team of staff whose passion, ethics, energy and fun are channelled into the wide range of product we
-                                                    create.
-                                                </p>
+                                                <?php echo $busy_me_content;?>
                                                 <button class="cloud-btn">Shop</button>
                                             </div>
                                         </div>
@@ -612,17 +614,14 @@ get_header(); ?>
                                     <div class="row">
                                         <div class="col-md-6">
                                             <div class="carousel-content--left">
-                                                <iframe src="https://player.vimeo.com/video/202776948?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                                                <?php echo $out_of_the_box_left_content ;?>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="carousel-content--right">
                                                 <img src="<?php bloginfo('template_directory');?>/assets/img/OOTB_logo.png" />
                                                 <h1>Out Of The Box</h1>
-                                                <p>We aim to create intelligently designed, safe, ethically sourcesd, trustworthy toys at outstanding value. Children are at the center of everything we do. Attention to detail is paramout from the toy
-                                                    itself to the attractive, celar and informative packaging. Addo Play is driven by an ambitious team of staff whose passion, ethics, energy and fun are channelled into the wide range of product we
-                                                    create.
-                                                </p>
+                                                <?php echo $out_of_the_box_content;?>
                                                 <button class="cloud-btn">Shop</button>
                                             </div>
                                         </div>
@@ -636,17 +635,14 @@ get_header(); ?>
                                     <div class="row">
                                         <div class="col-md-6">
                                             <div class="carousel-content--left">
-                                                <iframe src="https://player.vimeo.com/video/202776948?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                                               <?php echo $unique_boutique_left_content ;?>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="carousel-content--right">
                                                 <img src="<?php bloginfo('template_directory');?>/assets/img/UB_logo.png" />
                                                 <h1>Unique Boutique</h1>
-                                                <p>We aim to create intelligently designed, safe, ethically sourcesd, trustworthy toys at outstanding value. Children are at the center of everything we do. Attention to detail is paramout from the toy
-                                                    itself to the attractive, celar and informative packaging. Addo Play is driven by an ambitious team of staff whose passion, ethics, energy and fun are channelled into the wide range of product we
-                                                    create.
-                                                </p>
+                                                <?php echo $unique_boutique_content ;?>
                                                 <button class="cloud-btn">Shop</button>
                                             </div>
                                         </div>
@@ -654,6 +650,49 @@ get_header(); ?>
                                 </div>
                             </div>
                         </div>
+                        <div class="item">
+                            <div class="carousel-container">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="carousel-content--left">
+                                               <?php echo $bobble_it_left_content ;?>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="carousel-content--right">
+                                                <img src="<?php bloginfo('template_directory');?>/assets/img/UB_logo.png" />
+                                                <h1>Nickelodeon Bobble It</h1>
+                                                <?php echo $bobble_it_content ;?>
+                                                <button class="cloud-btn">Shop</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="carousel-container">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="carousel-content--left">
+                                               <?php echo $experimake_left_content  ;?>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="carousel-content--right">
+                                                <img src="<?php bloginfo('template_directory');?>/assets/img/UB_logo.png" />
+                                                <h1>Experimake</h1>
+                                                <?php echo $unique_boutique_content ;?>
+                                                <button class="cloud-btn">Shop</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
                     </div>
                     <!-- END OF BRANDSLIDER CAROUSEL -->
 

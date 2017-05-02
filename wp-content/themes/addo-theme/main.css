@@ -1,6 +1,3 @@
-.logged-in #nav_list {
-  margin-top: 32px; }
-
 .nav-fixed {
   position: fixed;
   top: 0;
@@ -29,7 +26,7 @@
     right: 277px; }
 
 .js-buttonset {
-  top: 15%;
+  top: 20%;
   transition: all 0.6s linear; }
   @media only screen and (max-width: 767px) {
     .js-buttonset {
@@ -107,7 +104,7 @@
 
 .social-header--container {
   position: fixed;
-  top: 32px;
+  top: 0;
   z-index: 1040;
   padding: 20px 0; }
   .social-header--container ul {
@@ -584,7 +581,7 @@ img {
     opacity: 1;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 50px;
-    top: 0;
+    top: -20%;
     z-index: 1042; }
   #brandSlider .carousel-container .carousel-content--left {
     position: relative;
@@ -885,6 +882,11 @@ img {
 .footer-container {
   width: 100%;
   padding: 20px; }
+  .footer-container p {
+    color: #fff;
+    font-size: 12px; }
+  .footer-container span {
+    text-transform: uppercase; }
 
 .footer-container--one {
   background: #00a3df; }
@@ -924,6 +926,15 @@ img {
 
 .footer-container--four {
   background: #de014b; }
+
+.page-template-page-policy-php {
+  background: #ef7b37; }
+
+.policy-container {
+  margin-top: 10%;
+  color: #fff; }
+  .policy-container p {
+    line-height: 24px; }
 
 h1,
 h2,

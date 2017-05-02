@@ -15,6 +15,15 @@
 .footer-container {
     width: 100%;
     padding: 20px;
+    p {
+        color: #fff;
+        font: {
+            size: 12px;
+        }
+    }
+    span {
+        text-transform: uppercase;
+    }
 }
 
 .footer-container--one {

@@ -1,3 +1,10 @@
+ <?php 
+
+//ADVANCED CUSTOM FIELDS//
+$brands_content = get_field('brands_content');
+
+?>
+ 
  <!-- OUR BRANDS SECTION -->
 
 <div class="section" id="section-three" data-anchor="OurBrands">
@@ -150,8 +157,9 @@
                     <div class="content-container">
                         <div class="content">
                             <h1>Our Brands</h1>
-                            <p>Children are at the centre of everything we do. Attention to detail is paramout from the toy itself to the attractive, clear and informative packaging.</p>
-                            <p>Addo Play is driven by an ambitious team of staff whose passion, ethics, energy and fun are channelled into the wide range of product we create.</p>
+                            <?php echo $brands_content ;?>
+                            <!--<p>Children are at the centre of everything we do. Attention to detail is paramout from the toy itself to the attractive, clear and informative packaging.</p>
+                            <p>Addo Play is driven by an ambitious team of staff whose passion, ethics, energy and fun are channelled into the wide range of product we create.</p>-->
                             <button class="cloud-btn" id="js-seeBrands" data-toggle="modal" data-target="#brandsModal">See all Brands</button>
                         </div>
 
