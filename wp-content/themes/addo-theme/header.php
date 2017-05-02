@@ -44,11 +44,11 @@
         <div class="nav-menu">
             <img src="<?php bloginfo('template_directory');?>/assets/img/addo_logo.svg" atl="Addo Logo" />
             <ul>
-                <li><a href="#Home">Home</a></li>
-                <li><a href="#AboutUs">About Us</a></li>
-                <li><a href="#OurBrands">Our Brands</a></li>
-                <li><a href="#News">News</a></li>
-                <li><a href="#ContactUs">Contact Us</a></li>
+                <li><a href="<?php get_site_url();?>/#Home">Home</a></li>
+                <li><a href="<?php get_site_url();?>/#AboutUs">About Us</a></li>
+                <li><a href="<?php get_site_url();?>/#OurBrands">Our Brands</a></li>
+                <li><a href="<?php get_site_url();?>/#News">News</a></li>
+                <li><a href="<?php get_site_url();?>/#ContactUs">Contact Us</a></li>
             </ul>
         </div>
     </nav>

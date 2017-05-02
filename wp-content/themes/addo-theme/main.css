@@ -29,7 +29,7 @@
     right: 277px; }
 
 .js-buttonset {
-  top: 30%;
+  top: 15%;
   transition: all 0.6s linear; }
   @media only screen and (max-width: 767px) {
     .js-buttonset {
@@ -107,6 +107,7 @@
 
 .social-header--container {
   position: fixed;
+  top: 32px;
   z-index: 1040;
   padding: 20px 0; }
   .social-header--container ul {
@@ -120,12 +121,18 @@
         font-size: 20px; }
 
 .single-post {
-  background: red; }
+  background: #ef7b37; }
 
-.news-container article {
-  max-width: 70%;
-  display: block;
-  margin: 10% auto; }
+.news-container {
+  color: #fff; }
+  .news-container article {
+    max-width: 70%;
+    display: block;
+    margin: 10% auto; }
+  .news-container img {
+    max-width: 100%;
+    display: block;
+    margin: 10% auto; }
 
 #section-one {
   background: #f0c30f;
@@ -919,7 +926,9 @@ img {
   background: #de014b; }
 
 h1,
-h2 {
+h2,
+span,
+p {
   font-family: "ff-cocon-web-pro"; }
 
 h1 {
@@ -930,6 +939,13 @@ h2 {
 
 p {
   font-size: 16px; }
+
+a {
+  color: #de014b;
+  text-decoration: none; }
+  a:hover {
+    color: #de014b;
+    text-decoration: none; }
 
 button {
   padding: 12px 30px;

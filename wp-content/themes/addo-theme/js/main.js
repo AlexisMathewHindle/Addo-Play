@@ -9,6 +9,7 @@ $(document).ready(function() {
 
         if ($(window).width() > 767) {
             $('.buttonset').toggleClass('js-buttonset');
+            //     alert('This is working');
         }
 
     });
@@ -33,15 +34,6 @@ $(document).ready(function() {
 
         });
     }
-
-    /* SCRIPT TO CHECK WINDOW WIDTH ON RESIZE */
-    var w = $(window).width();
-    $(window).resize(function() {
-        if ($(window).width() == w) return;
-        w = $(window).width();
-        console.log(w);
-    });
-
 
     /* SCRIPT FOR TYPING ELEMENT ON HOME SECTION */
     Typed.new('.element', {
@@ -1001,6 +993,7 @@ $(document).ready(function() {
         $('.third-img').fadeOut('slow');
         $('.fourth-img').fadeIn('slow');
     })
+
     $('.brandTwo').mouseleave(function() {
         $('.third-img').fadeIn('slow');
         $('.fourth-img').fadeOut('slow');
@@ -1010,6 +1003,7 @@ $(document).ready(function() {
         $('.fifth-img').fadeOut('slow');
         $('.sixth-img').fadeIn('slow');
     })
+
     $('.brandThree').mouseleave(function() {
         $('.fifth-img').fadeIn('slow');
         $('.sixth-img').fadeOut('slow');
@@ -1019,6 +1013,7 @@ $(document).ready(function() {
         $('.seventh-img').fadeOut('slow');
         $('.eigth-img').fadeIn('slow');
     })
+
     $('.brandFour').mouseleave(function() {
         $('.seventh-img').fadeIn('slow');
         $('.eigth-img').fadeOut('slow');
@@ -1028,6 +1023,7 @@ $(document).ready(function() {
         $('.nineth-img').fadeOut('slow');
         $('.tenth-img').fadeIn('slow');
     })
+
     $('.brandFive').mouseleave(function() {
         $('.nineth-img').fadeIn('slow');
         $('.tenth-img').fadeOut('slow');
@@ -1037,6 +1033,7 @@ $(document).ready(function() {
         $('.eleventh-img').fadeOut('slow');
         $('.twelfth-img').fadeIn('slow');
     })
+
     $('.brandSix').mouseleave(function() {
         $('.eleventh-img').fadeIn('slow');
         $('.twelfth-img').fadeOut('slow');
@@ -1046,6 +1043,7 @@ $(document).ready(function() {
         $('.thirteenth-img').fadeOut('slow');
         $('.fourteenth-img').fadeIn('slow');
     })
+
     $('.brandSeven').mouseleave(function() {
         $('.thirteenth-img').fadeIn('slow');
         $('.fourteenth-img').fadeOut('slow');
@@ -1055,6 +1053,7 @@ $(document).ready(function() {
         $('.fifteenth-img').fadeOut('slow');
         $('.sixteenth-img').fadeIn('slow');
     })
+
     $('.brandEight').mouseleave(function() {
         $('.fifteenth-img').fadeIn('slow');
         $('.sixteenth-img').fadeOut('slow');
@@ -1064,6 +1063,7 @@ $(document).ready(function() {
         $('.seventeenth-img').fadeOut('slow');
         $('.eighteenth-img').fadeIn('slow');
     })
+
     $('.brandNine').mouseleave(function() {
         $('.seventeenth-img').fadeIn('slow');
         $('.eighteenth-img').fadeOut('slow');
@@ -1073,6 +1073,7 @@ $(document).ready(function() {
         $('.nineteenth-img').fadeOut('slow');
         $('.twentieth-img').fadeIn('slow');
     })
+
     $('.brandTen').mouseleave(function() {
         $('.nineteenth-img').fadeIn('slow');
         $('.twentieth-img').fadeOut('slow');

@@ -287,14 +287,13 @@ get_header(); ?>
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6">
-                        
                             <?php
-                                        $args = array(
-                                            'post_type' => 'post',
-                                            'showposts' => 1,
-                                        );
+                                $args = array(
+                                    'post_type' => 'post',
+                                    'showposts' => 1,
+                                );
 
-                                        $post_query = new WP_Query($args);
+                                $post_query = new WP_Query($args);
                                     if($post_query->have_posts() ) {
                                     while($post_query->have_posts() ) {
                                         $post_query->the_post();
@@ -302,8 +301,8 @@ get_header(); ?>
                                         <p><?php echo get_the_post_thumbnail();?></p>
                                         <?php
                                     }
-                                    }
-                                    ?>
+                                }
+                            ?>
                         </div>
                         <div class="col-md-6">
                             <div class="content-container">
