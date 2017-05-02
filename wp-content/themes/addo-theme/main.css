@@ -513,7 +513,7 @@
 #brandsModal .brand-container {
   position: relative;
   width: 100%;
-  height: 150px; }
+  height: 30vh; }
   #brandsModal .brand-container img {
     position: absolute;
     top: 0;
