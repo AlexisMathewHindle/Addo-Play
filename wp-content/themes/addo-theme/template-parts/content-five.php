@@ -18,7 +18,6 @@
                         <img id="star-six" data-src="<?php bloginfo('template_directory');?>/assets/img/star_fill.png" class="img-responsive" />
                         <img id="aeroplane" data-src="<?php bloginfo('template_directory');?>/assets/img/aeroplane.png" class="img-responsive" />
                         <div class="map" id="map"></div>
-
                     </div>
                 </div>
                 <div class="col-md-6">

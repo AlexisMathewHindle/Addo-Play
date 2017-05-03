@@ -142,8 +142,22 @@ require get_template_directory() . '/inc/customizer.php';
  */
 require get_template_directory() . '/inc/jetpack.php';
 
+// FUNCTION FOR VARIATION OF BUTTON RETURN FOR NEWS & POSTS //
+
 function wpdocs_excerpt_more( $more ) {
-    return '<button class="cloud-btn"><a href="'.get_the_permalink().'" rel="nofollow">Read More...</a></button>';
+	if(is_front_page() || is_single($post = '')){
+		return ' ...<div class="archive-button"><button class="cloud-btn"><a href="'.get_the_permalink().'" rel="nofollow">Read More...</a></button><button class="cloud-btn"><a href="'.get_site_url().'/news" rel="nofollow">See all our news</a></button></div>';
+	} else {
+		return ' ...<div class="archive-button"><button class="cloud-btn"><a href="'.get_the_permalink().'" rel="nofollow">Read More...</a></button></div>';
+	}
 }
 add_filter( 'excerpt_more', 'wpdocs_excerpt_more' );
+
+
+// FUNCTION FOR NEWS EXCERPT LENGTH //
+
+function wpdocs_custom_excerpt_length( $length ) {
+    return 50;
+}
+add_filter( 'excerpt_length', 'wpdocs_custom_excerpt_length', 999 );
 

@@ -37,10 +37,9 @@ get_header(); ?>
 
 							get_template_part( 'template-parts/content' );
 
-							
-
 					endwhile; // End of the loop.
 				?>
+				<button class="cloud-btn"><a href="<?php get_site_url();?>/news" rel="nofollow">See all our news</a></button>
 			</div>
 		</div>
 	</div>

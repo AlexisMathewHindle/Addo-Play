@@ -1,17 +1,46 @@
-.single-post {
+.single-post, .page-template-page-news-php {
     background: $orange;
 }
 
 .news-container {
     color: #fff;
     article {
-        max-width: 70%;
+        max-width: 90%;
         display: block;
-        margin: 10% auto;
+        margin: 20% 0 auto;
     }
+    // a {
+    //     font-family: "ff-cocon-web-pro";
+    //     font-size: 36px;
+    //     color: #fff;
+    // }
     img {
         max-width: 100%;
         display: block;
         margin: 10% auto;
+    }
+
+}
+
+.news-archive-title {
+    margin-top:10%;
+    h1 {
+        color: #fff;
+        font-family: "ff-cocon-web-pro";
+    }
+}
+.news-archive {
+    color: #fff;
+    h2 {
+        margin: 40px 0;
+        float: left;
+    }
+    p {
+        margin-bottom: 40px;
+        float:left;
+    }
+    .cloud-btn {
+        float: left;
+        margin: 0;
     }
 }
