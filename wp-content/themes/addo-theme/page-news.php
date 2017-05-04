@@ -19,7 +19,7 @@ $wpb_all_query = new WP_Query(array('post_type'=>'post', 'post_status'=>'publish
 
 <div class="container">
     <div class="row">
-        <div class="col-md-offset-2 col-md-8">
+        <div class="col-md-offset-1 col-md-5 col-xs-offset-2 col-xs-8">
             <div class="news-archive-title">
                 <h1>News</h1>
             </div>
@@ -37,6 +37,26 @@ $wpb_all_query = new WP_Query(array('post_type'=>'post', 'post_status'=>'publish
                 <?php else : ?>
                     <p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
                 <?php endif; ?>
+            </div>
+        </div>
+        <div class="col-md-5">
+            <div class="news-archive-img">
+                <?php
+                    $args = array(
+                        'post_type' => 'post',
+                        'showposts' => 1,
+                    );
+
+                    $post_query = new WP_Query($args);
+                        if($post_query->have_posts() ) {
+                        while($post_query->have_posts() ) {
+                            $post_query->the_post();
+                            ?>
+                            <?php echo get_the_post_thumbnail();?>
+                            <?php
+                        }
+                    }
+                ?>
             </div>
         </div>
     </div>
