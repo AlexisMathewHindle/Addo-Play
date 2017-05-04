@@ -96,8 +96,8 @@ button {
     top: 19%;
     right: 20%;
     width: 7%;
-    -webkit-animation-delay: 2.5s;
-    animation-delay: 2.5s;
+    -webkit-animation-delay: 1.5s;
+    animation-delay: 1.5s;
 }
 
 .shop-btn {
@@ -126,16 +126,16 @@ button {
     top: 45%;
     left: 10%;
     width: 22%;
-    -webkit-animation-delay: 2s;
-    animation-delay: 2s;
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
 }
 
 #splatter-three {
     /* bottom: 13%; */
     /* right: 5%; */
     width: 100%;
-    -webkit-animation-delay: 3s;
-    animation-delay: 3s;
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
     z-index: 1;
     /* top: 5%; */
     /* left: -3%; */
@@ -144,8 +144,8 @@ button {
 .js-animate--splatter {
     -webkit-animation-name: zoomIn;
     animation-name: zoomIn;
-    -webkit-animation-duration: .2s;
-    animation-duration: .2s;
+    -webkit-animation-duration: .1s;
+    animation-duration: .1s;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
 }

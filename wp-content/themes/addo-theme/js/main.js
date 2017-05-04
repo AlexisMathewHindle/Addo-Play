@@ -62,6 +62,7 @@ $(document).ready(function() {
             //SCRIPT TO CHANGE BACKGROUND COLOR OF MENU BAR FOR FIRST SLIDE
             if (index == 2 && direction == 'up') {
                 $('.nav-menu').css('background', '#00a3df');
+                
             }
             // SCRIPT TO CHANGE BACKGROUND COLOR OF MENU BAR FOR SECOND SLIDE
             if (index == 1) {
@@ -73,13 +74,25 @@ $(document).ready(function() {
             }
             if (index == 3 && direction == 'up') {
                 $('.nav-menu').css('background', '#fed100');
+                $('.image-top').removeClass('js-animate--top');
+                $('.image-bottom').removeClass('js-animate--bottom');
+                $('.splatter').removeClass('js-animate--splatter');
+                $('.shop-btn button').removeClass('js-animate--splatter');
             }
             // SCRIPT TO CHANGE BACKGROUND COLOR OF MENU BAR FOR FOURTH SLIDE
             if (index == 3 && direction == 'down') {
                 $('.nav-menu').css('background', '#de014b');
+                $('.image-top').removeClass('js-animate--top');
+                $('.image-bottom').removeClass('js-animate--bottom');
+                $('.splatter').removeClass('js-animate--splatter');
+                $('.shop-btn button').removeClass('js-animate--splatter');
             }
             if (index == 4 && direction == 'up') {
                 $('.nav-menu').css('background', '#ef7b37');
+                $('.image-top').addClass('js-animate--top');
+                $('.image-bottom').addClass('js-animate--bottom');
+                $('.splatter').addClass('js-animate--splatter');
+                $('.shop-btn button').addClass('js-animate--splatter');
             }
             // SCRIPT TO CHANGE BACKGROUND COLOR OF MENU BAR FOR FIFTH SLIDE
             if (index == 4 && direction == 'down') {
@@ -99,6 +112,9 @@ $(document).ready(function() {
 
             } else if (index == 3 && direction == 'up') {
                 $('.image-top').removeClass('js-animate--top');
+                $('.image-bottom').removeClass('js-animate--bottom');
+                $('.splatter').removeClass('js-animate--splatter');
+                $('.shop-btn button').removeClass('js-animate--splatter');
             }
 
             //SCRIPT TO FADE OUT TOP SOCIAL ON REACHING FOOTER
@@ -126,6 +142,8 @@ $(document).ready(function() {
             /* OUR BRANDS SECTION MENU BACKGROUND COLOR CHANGE */
             if (anchorLink == 'OurBrands') {
                 $('.nav-menu').css('background', '#ef7b37');
+                $('.image-top').addClass('js-animate--top');
+                $('.image-bottom').addClass('js-animate--bottom');
             }
             /* NEWS SECTION MENU BACKGROUND COLOR CHANGE */
             if (anchorLink == 'News') {
