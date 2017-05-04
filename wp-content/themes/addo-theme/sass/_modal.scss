@@ -39,7 +39,8 @@
         font-size: 60px;
     }
     .svg-img {
-        height: 270px;
+        width: 12vh;
+        height: auto;
     }
 }
 
@@ -114,7 +115,7 @@
     /* transform: translateX(-50%); */
     width: 100%;
     padding: 0 150px;
-    bottom: -41%;
+    // bottom: -41%;
     h1 {
         text-align: center;
     }

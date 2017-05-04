@@ -10,6 +10,32 @@
 
 // ADVANCED CUSTOM FIELDS //
 
+// TEAM MODAL CONTENT //
+$team_one_name  = get_field('team_one_name');
+$team_one_title = get_field('team_one_title');
+$team_one_content = get_field('team_one_content');
+$team_two_name  = get_field('team_two_name');
+$team_two_title = get_field('team_two_title');
+$team_two_content = get_field('team_two_content');
+$team_three_name  = get_field('team_three_name');
+$team_three_title = get_field('team_three_title');
+$team_three_content = get_field('team_three_content');
+$team_four_name  = get_field('team_four_name');
+$team_four_title = get_field('team_four_title');
+$team_four_content = get_field('team_four_content');
+$team_five_name  = get_field('team_five_name');
+$team_five_title = get_field('team_five_title');
+$team_five_content = get_field('team_five_content');
+$team_sixth_name  = get_field('team_sixth_name');
+$team_sixth_title = get_field('team_sixth_title');
+$team_sixth_content = get_field('team_sixth_content');
+$team_seven_name  = get_field('team_seven_name');
+$team_seven_title = get_field('team_seven_title');
+$team_seven_content = get_field('team_seven_content');
+$team_seven_name  = get_field('team_eight_name');
+$team_seven_title = get_field('team_eight_title');
+
+
 // BRANDS MODAL CONTENT //
 $snuggle_bunnies_left_content = get_field('snuggle_bunnies_left_content');
 $snuggle_bunnies_content      = get_field('snuggle_bunnies_content');
@@ -183,96 +209,109 @@ get_header(); ?>
                 <div class="slider-nav">
                     <div>
                         <div class="teamContent-mobile">
-                            <h1>David Martin</h1>
-                            <h2>Joint Managing Director</h2>
-                            <p>My Toy story started in 1995 when I joined Mattel as a graduate trainee, I joined Mega Brands/Mattel in 2008 as UK General manager, becoming Vice President of International in 2011, before leaving to jointly set up a new
-                                exciting adventure with Addo Play in April 2015.</p>
-                            <p>My favourite childhood toy was Action Man</p>
-                            <p>My favourite Addo toy is Out to Impress Make your own Teddy Bear</p>
+                            <h1><?php echo $team_one_name ;?></h1>
+                            <h2><?php echo $team_one_title;?></h2>
+                            <?php echo $team_one_content;?>
                         </div>
                     </div>
                     <div>
                         <div class="teamContent-mobile">
-                            <h1>David Martin</h1>
-                            <h2>Joint Managing Director</h2>
-                            <p>My Toy story started in 1995 when I joined Mattel as a graduate trainee, I joined Mega Brands/Mattel in 2008 as UK General manager, becoming Vice President of International in 2011, before leaving to jointly set up a new
-                                exciting adventure with Addo Play in April 2015.</p>
-                            <p>My favourite childhood toy was Action Man</p>
-                            <p>My favourite Addo toy is Out to Impress Make your own Teddy Bear</p>
+                           <h1><?php echo $team_two_name ;?></h1>
+                            <h2><?php echo $team_two_title;?></h2>
+                            <?php echo $team_two_content;?>
                         </div>
                     </div>
                     <div>
                         <div class="teamContent-mobile">
-                            <h1>David Martin</h1>
-                            <h2>Joint Managing Director</h2>
-                            <p>My Toy story started in 1995 when I joined Mattel as a graduate trainee, I joined Mega Brands/Mattel in 2008 as UK General manager, becoming Vice President of International in 2011, before leaving to jointly set up a new
-                                exciting adventure with Addo Play in April 2015.</p>
-                            <p>My favourite childhood toy was Action Man</p>
-                            <p>My favourite Addo toy is Out to Impress Make your own Teddy Bear</p>
+                            <h1><?php echo $team_three_name ;?></h1>
+                            <h2><?php echo $team_three_title;?></h2>
+                            <?php echo $team_three_content;?>
                         </div>
                     </div>
                     <div>
                         <div class="teamContent-mobile">
-                            <h1>David Martin</h1>
-                            <h2>Joint Managing Director</h2>
-                            <p>My Toy story started in 1995 when I joined Mattel as a graduate trainee, I joined Mega Brands/Mattel in 2008 as UK General manager, becoming Vice President of International in 2011, before leaving to jointly set up a new
-                                exciting adventure with Addo Play in April 2015.</p>
-                            <p>My favourite childhood toy was Action Man</p>
-                            <p>My favourite Addo toy is Out to Impress Make your own Teddy Bear</p>
+                            <h1><?php echo $team_four_name ;?></h1>
+                            <h2><?php echo $team_four_title;?></h2>
+                            <?php echo $team_four_content;?>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="teamContent-mobile">
+                            <h1><?php echo $team_five_name ;?></h1>
+                            <h2><?php echo $team_five_title;?></h2>
+                            <?php echo $team_five_content;?>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="teamContent-mobile">
+                            <h1><?php echo $team_sixth_name ;?></h1>
+                            <h2><?php echo $team_sixth_title;?></h2>
+                            <?php echo $team_sixth_content;?>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="teamContent-mobile">
+                            <h1><?php echo $team_seven_name ;?></h1>
+                            <h2><?php echo $team_seven_title;?></h2>
+                            <?php echo $team_seven_content;?>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="teamContent-mobile">
+                            <h1><?php echo $team_eight_name ;?></h1>
+                            <h2><?php echo $team_eight_title;?></h2>
+                            <?php echo $team_eight_content;?>
                         </div>
                     </div>
                 </div>
 
 
                 <div class="team-content js-team-content" id="team-one">
-                    <h1>David Martin</h1>
-                    <h2>Joint Managing Director</h2>
-                    <p>My Toy story started in 1995 when I joined Mattel as a graduate trainee, I joined Mega Brands/Mattel in 2008 as UK General manager, becoming Vice President of International in 2011, before leaving to jointly set up a new exciting
-                        adventure with Addo Play in April 2015.</p>
-                    <p>My favourite childhood toy was Action Man</p>
-                    <p>My favourite Addo toy is Out to Impress Make your own Teddy Bear</p>
+                    <h1><?php echo $team_one_name ;?></h1>
+                    <h2><?php echo $team_one_title;?></h2>
+                    <?php echo $team_one_content;?>
                 </div>
 
                 <div class="team-content" id="team-two">
-                    <h1>Text for team No2</h1>
-                    <p>We aim to create intelligently designed, safe, ethically sourcesd, trustworthy toys at outstanding value.</p>
-                    <p> Children are at the center of everything we do. Attention to detail is paramout from the toy itself to the attractive, celar and informative packaging.</p>
+                    <h1><?php echo $team_two_name ;?></h1>
+                    <h2><?php echo $team_two_title;?></h2>
+                    <?php echo $team_two_content;?>
                 </div>
 
                 <div class="team-content" id="team-three">
-                    <h1>Text for team No3</h1>
-                    <p>We aim to create intelligently designed, safe, ethically sourcesd, trustworthy toys at outstanding value.</p>
-                    <p> Children are at the center of everything we do. Attention to detail is paramout from the toy itself to the attractive, celar and informative packaging.</p>
+                    <h1><?php echo $team_three_name ;?></h1>
+                    <h2><?php echo $team_three_title;?></h2>
+                    <?php echo $team_three_content;?>
                 </div>
 
                 <div class="team-content" id="team-four">
-                    <h1>Text for team No4</h1>
-                    <p>We aim to create intelligently designed, safe, ethically sourcesd, trustworthy toys at outstanding value.</p>
-                    <p> Children are at the center of everything we do. Attention to detail is paramout from the toy itself to the attractive, celar and informative packaging.</p>
+                    <h1><?php echo $team_four_name ;?></h1>
+                    <h2><?php echo $team_four_title;?></h2>
+                    <?php echo $team_four_content;?>
                 </div>
 
                 <div class="team-content" id="team-five">
-                    <h1>Text for team No5</h1>
-                    <p>We aim to create intelligently designed, safe, ethically sourcesd, trustworthy toys at outstanding value.</p>
-                    <p> Children are at the center of everything we do. Attention to detail is paramout from the toy itself to the attractive, celar and informative packaging.</p>
+                    <h1><?php echo $team_five_name ;?></h1>
+                    <h2><?php echo $team_five_title;?></h2>
+                    <?php echo $team_five_content;?>
                 </div>
 
                 <div class="team-content" id="team-six">
-                    <h1>Text for team No6</h1>
-                    <p>We aim to create intelligently designed, safe, ethically sourcesd, trustworthy toys at outstanding value.</p>
-                    <p> Children are at the center of everything we do. Attention to detail is paramout from the toy itself to the attractive, celar and informative packaging.</p>
+                    <h1><?php echo $team_sixth_name ;?></h1>
+                    <h2><?php echo $team_sixth_title;?></h2>
+                    <?php echo $team_sixth_content;?>
                 </div>
 
                 <div class="team-content" id="team-seven ">
-                    <h1>Text for team No7</h1>
-                    <p>We aim to create intelligently designed, safe, ethically sourcesd, trustworthy toys at outstanding value.</p>
-                    <p> Children are at the center of everything we do. Attention to detail is paramout from the toy itself to the attractive, celar and informative packaging.</p>
+                    <h1><?php echo $team_seven_name ;?></h1>
+                    <h2><?php echo $team_seven_title;?></h2>
+                    <?php echo $team_seven_content;?>
                 </div>
 
                 <div class="team-content" id="team-eight">
-                    <h1>Text for team No8</h1>
-                    <p>We aim to create intelligently designed, safe, ethically sourcesd, trustworthy toys at outstanding value.</p>
-                    <p> Children are at the center of everything we do. Attention to detail is paramout from the toy itself to the attractive, celar and informative packaging.</p>
+                    <h1><?php echo $team_eight_name ;?></h1>
+                    <h2><?php echo $team_eight_title;?></h2>
+                    <?php echo $team_eight_content;?>
                 </div>
 
                 <div class="team-content" id="team-nine">

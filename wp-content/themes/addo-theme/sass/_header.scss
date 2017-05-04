@@ -3,15 +3,16 @@
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 1042;
+    // z-index: 1042;
     @media only screen and (max-width: 767px) {
         height: 100%;
         // z-index: 0;
     }
 }
 
+
 .nav-index {
-    z-index: 1;
+    z-index: -1;
 }
 
 .buttonset {
@@ -65,7 +66,7 @@
     @media only screen and (max-width: 767px) {
         height: 100%;
         margin-top: -100vh;
-        opacity: 0
+        opacity: 0;
     }
     img {
         max-width: 15%;

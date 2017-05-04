@@ -3,10 +3,12 @@ $(document).ready(function() {
 
     /* SCRIPT FOR MENU SLIDE DOWN ON CLICK OF HAMBURGER */
     $('#nav_list').click(function() {
-        $('.nav-menu').toggleClass('js-nav-menu');
-        /* SCRIPT TO SLIDE HAMBURGER DOWN ON MENU OPEN */
         // $('.nav-fixed').toggleClass('nav-index');
-
+        // setTimeout(function(){
+        //     $('#fullpage').toggleClass('nav-index');
+        // },600);
+        $('.nav-menu').toggleClass('js-nav-menu');
+        
         if ($(window).width() > 767) {
             $('.buttonset').toggleClass('js-buttonset');
             //     alert('This is working');
@@ -46,6 +48,7 @@ $(document).ready(function() {
 
     $('#fullpage').fullpage({
         anchors: ['Home', 'AboutUs', 'OurBrands', 'News', 'ContactUs', 'Footer'],
+        menu: '.nav-fixed',
         animateAnchor: true,
         responsiveWidth: 992,
         responsiveSlides: false,

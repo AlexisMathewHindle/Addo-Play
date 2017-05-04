@@ -20,14 +20,14 @@ get_header(); ?>
 				<h1>It looks like nothing was found on this page</h1>
 				<h2>Maybe try one of the pages below</h2>
 				<?php
-					wp_list_categories( array(
-						'orderby'    => 'count',
-						'order'      => 'DESC',
-						'show_count' => 1,
-						'title_li'   => '',
-						'number'     => 4,
-					) );
-				?>
+							wp_list_categories( array(
+								'orderby'    => 'count',
+								'order'      => 'DESC',
+								'show_count' => 1,
+								'title_li'   => '',
+								'number'     => 10,
+							) );
+						?>
 			</div>
 		</div>
 	</div>
