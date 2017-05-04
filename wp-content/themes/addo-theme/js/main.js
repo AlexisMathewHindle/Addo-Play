@@ -38,7 +38,7 @@ $(document).ready(function() {
     /* SCRIPT FOR TYPING ELEMENT ON HOME SECTION */
     Typed.new('.element', {
         strings: ["Toys for everyday play.", "Available worldwide.", "Outstanding value.", "Intelligent and thoughtful design", "Inspiring play."],
-        typeSpeed: 0
+        typeSpeed: 10
     });
 
 

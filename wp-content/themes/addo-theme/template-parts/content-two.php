@@ -6,7 +6,7 @@ $about_sub_title    = get_field('about_sub_title');
 $about_us_content   = get_field('about_us_content');
 
 ;?>
- 
+
  <!-- ABOUT US SECTION -->
 
 <div class="section" id="section-two" data-anchor: "AboutUs">
@@ -27,7 +27,7 @@ $about_us_content   = get_field('about_us_content');
             <div class="row">
                 <div class="col-md-6">
                     <div class="video_container">
-                        <img data-src="<?php bloginfo('template_directory');?>/assets/img/video_fill.png" />
+                        <img data-src="<?php bloginfo('template_directory');?>/assets/img/Alien.svg" />
                         <iframe src="https://player.vimeo.com/video/202776948?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                     </div>
                 </div>
@@ -37,7 +37,7 @@ $about_us_content   = get_field('about_us_content');
                             <h1>About us</h1>
                             <h2><?php echo $about_sub_title ;?></h2>
                             <?php echo $about_us_content ;?>
-                            <button class="cloud-btn" id="js-seeTeam" data-toggle="modal" data-target="#teamModal">See out team</button>
+                            <button class="cloud-btn" id="js-seeTeam" data-toggle="modal" data-target="#teamModal">Meet our team</button>
                         </div>
                     </div>
                 </div>
