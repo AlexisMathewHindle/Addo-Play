@@ -21,7 +21,7 @@
 .teamSlider-mobile {
     color: #fff;
     max-width: 85%;
-    max-height: 48%;
+    height: 40vh;
     margin: 0 auto;
     @media only screen and (min-width: 840px) {
         display: none !important;
@@ -39,7 +39,7 @@
         font-size: 60px;
     }
     .svg-img {
-        width: 12vh;
+        width: 10vh;
         height: auto;
     }
 }
@@ -73,6 +73,7 @@
 .teamModal {
     .modal-backdrop {
         background-color: $blue;
+        max-height: 106vh;
     }
     .close {
         position: fixed;

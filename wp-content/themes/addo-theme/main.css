@@ -406,7 +406,7 @@
 .teamSlider-mobile {
   color: #fff;
   max-width: 85%;
-  max-height: 48%;
+  height: 40vh;
   margin: 0 auto; }
   @media only screen and (min-width: 840px) {
     .teamSlider-mobile {
@@ -422,7 +422,7 @@
     top: 50%;
     font-size: 60px; }
   .teamSlider-mobile .svg-img {
-    width: 12vh;
+    width: 10vh;
     height: auto; }
 
 .teamSlider {
@@ -448,7 +448,8 @@
     font-size: 60px; }
 
 .teamModal .modal-backdrop {
-  background-color: #00a3df; }
+  background-color: #00a3df;
+  max-height: 106vh; }
 
 .teamModal .close {
   position: fixed;

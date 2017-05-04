@@ -32,9 +32,21 @@ $team_sixth_content = get_field('team_sixth_content');
 $team_seven_name  = get_field('team_seven_name');
 $team_seven_title = get_field('team_seven_title');
 $team_seven_content = get_field('team_seven_content');
-$team_seven_name  = get_field('team_eight_name');
-$team_seven_title = get_field('team_eight_title');
-
+$team_eight_name  = get_field('team_eight_name');
+$team_eight_title = get_field('team_eight_title');
+$team_eight_content = get_field('team_eight_content');
+$team_nine_name  = get_field('team_nine_name');
+$team_nine_title = get_field('team_nine_title');
+$team_nine_content = get_field('team_nine_content');
+$team_ten_name  = get_field('team_ten_name');
+$team_ten_title = get_field('team_ten_title');
+$team_ten_content = get_field('team_ten_content');
+$team_eleven_name  = get_field('team_eleven_name');
+$team_eleven_title = get_field('team_eleven_title');
+$team_eleven_content = get_field('team_eleven_content');
+$team_twelve_name  = get_field('team_twelve_name');
+$team_twelve_title = get_field('team_twelve_title');
+$team_twelve_content = get_field('team_twelve_content');
 
 // BRANDS MODAL CONTENT //
 $snuggle_bunnies_left_content = get_field('snuggle_bunnies_left_content');
@@ -182,9 +194,9 @@ get_header(); ?>
                                     <div class="col-xs-3">
                                         <img class="svg-img" id="teamEleven" src="<?php bloginfo('template_directory');?>/assets/img/character_one.svg" />
                                     </div>
-                                    <div class="col-xs-3">
+                                    <!--<div class="col-xs-3">
                                         <img class="svg-img lower" id="teamTwelve" src="<?php bloginfo('template_directory');?>/assets/img/character_one.svg" />
-                                    </div>
+                                    </div>-->
                                 </div>
                             </div>
                         </div>
@@ -203,6 +215,27 @@ get_header(); ?>
                     </div>
                     <div>
                         <img class="svg-img" id="teamFour" src="<?php bloginfo('template_directory');?>/assets/img/angela.png" alt="Angela Character" />
+                    </div>
+                    <div>
+                        <img class="svg-img" id="teamFive" src="<?php bloginfo('template_directory');?>/assets/img/andy.png" alt="Andy Character" />
+                    </div>
+                    <div>
+                        <img class="svg-img" id="teamSix" src="<?php bloginfo('template_directory');?>/assets/img/mary.png" alt="Mary Character" />
+                    </div>
+                    <div>
+                        <img class="svg-img" id="teamSeven" src="<?php bloginfo('template_directory');?>/assets/img/susanna.png" alt="Susanna Character" />
+                    </div>
+                    <div>
+                        <img class="svg-img" id="teamEight" src="<?php bloginfo('template_directory');?>/assets/img/leo.png" alt="Leo Character" />
+                    </div>
+                    <div>
+                        <img class="svg-img" id="teamNine" src="<?php bloginfo('template_directory');?>/assets/img/jennifer.png" alt="Jennifer Character" />
+                    </div>
+                    <div>
+                        <img class="svg-img" id="teamTen" src="<?php bloginfo('template_directory');?>/assets/img/janet.png" alt="Janet Character" />
+                    </div>
+                    <div>
+                        <img class="svg-img" id="teamEleven" src="<?php bloginfo('template_directory');?>/assets/img/character_one.svg" />
                     </div>
                 </div>
 
@@ -263,6 +296,34 @@ get_header(); ?>
                             <?php echo $team_eight_content;?>
                         </div>
                     </div>
+                    <div>
+                        <div class="teamContent-mobile">
+                            <h1><?php echo $team_nine_name ;?></h1>
+                            <h2><?php echo $team_nine_title;?></h2>
+                            <?php echo $team_nine_content;?>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="teamContent-mobile">
+                            <h1><?php echo $team_ten_name ;?></h1>
+                            <h2><?php echo $team_ten_title;?></h2>
+                            <?php echo $team_ten_content;?>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="teamContent-mobile">
+                            <h1><?php echo $team_eleven_name ;?></h1>
+                            <h2><?php echo $team_eleven_title;?></h2>
+                            <?php echo $team_eleven_content;?>
+                        </div>
+                    </div>
+                    <!--<div>
+                        <div class="teamContent-mobile">
+                            <h1><?php echo $team_twelve_name ;?></h1>
+                            <h2><?php echo $team_twelve_title;?></h2>
+                            <?php echo $team_twelve_content;?>
+                        </div>
+                    </div>-->
                 </div>
 
 
@@ -302,7 +363,7 @@ get_header(); ?>
                     <?php echo $team_sixth_content;?>
                 </div>
 
-                <div class="team-content" id="team-seven ">
+                <div class="team-content" id="team-seven">
                     <h1><?php echo $team_seven_name ;?></h1>
                     <h2><?php echo $team_seven_title;?></h2>
                     <?php echo $team_seven_content;?>
@@ -315,28 +376,28 @@ get_header(); ?>
                 </div>
 
                 <div class="team-content" id="team-nine">
-                    <h1>Text for team No9</h1>
-                    <p>We aim to create intelligently designed, safe, ethically sourcesd, trustworthy toys at outstanding value.</p>
-                    <p> Children are at the center of everything we do. Attention to detail is paramout from the toy itself to the attractive, celar and informative packaging.</p>
+                    <h1><?php echo $team_nine_name ;?></h1>
+                    <h2><?php echo $team_nine_title;?></h2>
+                    <?php echo $team_nine_content;?>
                 </div>
 
                 <div class="team-content" id="team-ten">
-                    <h1>Text for team</h1>
-                    <p>We aim to create intelligently designed, safe, ethically sourcesd, trustworthy toys at outstanding value.</p>
-                    <p> Children are at the center of everything we do. Attention to detail is paramout from the toy itself to the attractive, celar and informative packaging.</p>
+                    <h1><?php echo $team_ten_name ;?></h1>
+                    <h2><?php echo $team_ten_title;?></h2>
+                    <?php echo $team_ten_content;?>
                 </div>
 
                 <div class="team-content" id="team-eleven">
-                    <h1>Text for team</h1>
-                    <p>We aim to create intelligently designed, safe, ethically sourcesd, trustworthy toys at outstanding value.</p>
-                    <p> Children are at the center of everything we do. Attention to detail is paramout from the toy itself to the attractive, celar and informative packaging.</p>
+                    <h1><?php echo $team_eleven_name ;?></h1>
+                    <h2><?php echo $team_eleven_title;?></h2>
+                    <?php echo $team_eleven_content;?>
                 </div>
 
-                <div class="team-content" id="team-twelve">
-                    <h1>Text for team</h1>
-                    <p>We aim to create intelligently designed, safe, ethically sourcesd, trustworthy toys at outstanding value.</p>
-                    <p> Children are at the center of everything we do. Attention to detail is paramout from the toy itself to the attractive, celar and informative packaging.</p>
-                </div>
+                <!--<div class="team-content" id="team-twelve">
+                    <h1><?php echo $team_twelve_name ;?></h1>
+                    <h2><?php echo $team_twelve_title;?></h2>
+                    <?php echo $team_twelve_content;?>
+                </div>-->
             </div>
         </div>
     </div>

@@ -226,28 +226,10 @@ $(document).ready(function() {
         arrows: false,
         centerMode: false,
         centerPadding: '100px',
-        // focusOnSelect: true,
-        // autoplay: true,
+
     });
 
-    // var isFirstShowCall = false;
 
-    // $('#teamModal').on('show.bs.modal', function(e) {
-    //     isFirstShowCall = !isFirstShowCall; // Prevents an endless recursive call
-    //     if (isFirstShowCall) {
-    //         e.preventDefault(); // Prevent immediate opening
-    //         window.setTimeout(function() {
-    //             $('#teamModal').modal('show');
-    //         }, 3000)
-    //     }
-    // });
-
-    // $('#js-seeTeam').click(function() {
-    //     setTimeout(function() {
-    //         // $('#teaModal').modal();
-    //         alert('this is working');
-    //     }, 500);
-    // });
 
     $('.modal').on('shown.bs.modal', function(e) {
         $('.teamSlider-mobile').resize();
@@ -924,23 +906,28 @@ $(document).ready(function() {
     $(document).ready(function() {
         var machine1 = $("#machine1").slotMachine({
             active: 0,
-            delay: 500
+            delay: 500,
+            stopHidden: true
         });
 
         var machine2 = $("#machine2").slotMachine({
             active: 0,
             delay: 500,
-            direction: 'down'
+            direction: 'down',
+            stopHidden: true
         });
 
         var machine3 = $("#machine3").slotMachine({
             active: 0,
-            delay: 500
+            delay: 500,
+            stopHidden: true
+
         });
 
         var machine4 = $("#machine4").slotMachine({
             active: 0,
-            delay: 500
+            delay: 500,
+            stopHidden: true
         });
 
         function onComplete(active) {
@@ -966,15 +953,15 @@ $(document).ready(function() {
 
             setTimeout(function() {
                 machine2.shuffle(5, onComplete);
-            }, 500);
+            }, 100);
 
             setTimeout(function() {
                 machine3.shuffle(5, onComplete);
-            }, 1000);
+            }, 200);
 
             setTimeout(function() {
                 machine4.shuffle(5, onComplete);
-            }, 1500);
+            }, 300);
 
         })
     });
