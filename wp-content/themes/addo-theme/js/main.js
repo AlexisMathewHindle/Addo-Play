@@ -3,7 +3,7 @@ $(document).ready(function() {
 
     /* SCRIPT FOR MENU SLIDE DOWN ON CLICK OF HAMBURGER */
     $('#nav_list').click(function() {
-        // $('.nav-fixed').toggleClass('nav-index');
+        $('.nav-fixed').toggleClass('nav-index');
         // setTimeout(function(){
         //     $('#fullpage').toggleClass('nav-index');
         // },600);

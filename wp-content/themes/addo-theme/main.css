@@ -8,7 +8,7 @@
       height: 100%; } }
 
 .nav-index {
-  z-index: -1; }
+  z-index: 1042; }
 
 .buttonset {
   height: 11px;
@@ -659,15 +659,10 @@ img {
 
 .form-container {
   position: relative;
-  /* bottom: 0%; */
-  /* left: 12%; */
-  /* width: 50%; */
+  width: 60%;
   z-index: 1000;
   height: auto;
-  margin-left: -3%; }
-  @media only screen and (min-width: 300px) and (max-width: 500px) {
-    .form-container {
-      width: 121vw; } }
+  margin: 0 auto; }
   .form-container #cloud-one {
     position: absolute;
     position: absolute;
@@ -748,7 +743,7 @@ img {
     .form-container form input[type="submit"] {
       position: absolute;
       max-width: 20%;
-      right: 5%;
+      right: 10%;
       top: 110%;
       color: #fff;
       background: none;
@@ -757,7 +752,7 @@ img {
     .form-container form img {
       max-width: 30%;
       position: absolute;
-      right: 0;
+      right: 5%;
       top: 100%; }
     .form-container form textarea {
       width: 100%;

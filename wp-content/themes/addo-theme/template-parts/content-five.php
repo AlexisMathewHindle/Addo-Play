@@ -24,9 +24,8 @@
                     <div class="content-container">
                         <div class="content">
                             <h1>Contact Us</h1>
-                            <p>We aim to create intelligently designed, safe, ethically sourcesd, trustworthy toys at outstanding value.</p>
-                            <p>Children are at the center of everything we do. Attention to detail is paramout from the toy itself to the attractive, celar and informative packaging.</p>
-                            <p>Addo Play is driven by an ambitious team of staff whose passion, ethics, energy and fun are channelled into the wide range of product we create.</p>
+                            <p>Looking to talk to a member of our team?</p>
+                            <p>Don't hesiate to give us a shout by clicking on the button below. Fill in the form and we'll get back to you soon as we can.</p>
                             <button class="cloud-btn" id="js-contactUs" data-toggle="modal" data-target="#contactModal"><p class="cloud-p">Contact Us</p></button>
                         </div>
                     </div>

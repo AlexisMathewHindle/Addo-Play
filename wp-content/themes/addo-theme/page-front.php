@@ -822,7 +822,7 @@ get_header(); ?>
                 <div class="modal-body">
                     <div class="container">
                         <div class="row">
-                            <div class="col-md-6">
+                            <div class="col-md-12">
                                 <div class="form-container">
                                     <img id="main-cloud" src="<?php bloginfo('template_directory');?>/assets/img/cloud.svg" class="img-responsive" />
                                     <img id="cloud-one" src="<?php bloginfo('template_directory');?>/assets/img/cloud.png" class="img-responsive" />
@@ -836,38 +836,17 @@ get_header(); ?>
                                     <img id="star-five" src="<?php bloginfo('template_directory');?>/assets/img/star_fill.png" class="img-responsive" />
                                     <img id="star-six" src="<?php bloginfo('template_directory');?>/assets/img/star_fill.png" class="img-responsive" />
 
-                                    <form action="#">
+                                    <!--<form action="#">
                                         <div class="form-content">
                                             <input type="text" name="firstname" placeholder="Name" />
+                                            <input type="text" name="company" placeholder="Company" />
+                                            <input type="email" name="email" placeholder="Email" />
+                                            <textarea rows="6 " cols="50" placeholder="Message"></textarea>
                                         </div>
-                                        <div class="form-content">
-                                            <div class="form-content ">
-                                                <input type="text" name="company" placeholder="Company" />
-                                            </div>
-                                            <div class="form-content">
-                                                <input type="email" name="email" placeholder="Email" />
-                                            </div>
-                                            <div class="form-content">
-                                                <textarea rows="6 " cols="50" placeholder="Message"></textarea>
-                                            </div>
-                                            <img src="assets/img/cloud_submit.png" alt=" " />
-                                            <input type="submit" value="send">
-                                            <textarea rows="6" cols="50" placeholder="Message"></textarea>
-                                        </div>
-                                        <img src="assets/img/cloud_submit.png" alt=" " />
+                                        <img src="<?php bloginfo('template_directory');?>/assets/img/cloud_submit.png" alt=" " />
                                         <input type="submit" value="send "> 
-                                    </form>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="content-container">
-                                <div class="content">
-                                    <h1>Contact Us</h1>
-                                    <p>We aim to create intelligently designed, safe, ethically sourcesd, trustworthy toys at outstanding value.</p>
-                                    <p>Children are at the center of everything we do. Attention to detail is paramout from the toy itself to the attractive, celar and informative packaging.</p>
-                                    <p>Addo Play is driven by an ambitious team of staff whose passion, ethics, energy and fun are channelled into the wide range of product we create.</p>
-                                    <button class="cloud-btn" id="js-findUs" data-toggle="modal" data-target="#contactModal"><p class="cloud-p">Find Us</p></button>
-                                </div>
+                                    </form>-->
+                                    <?php echo do_shortcode( '[contact-form-7 id="29" title="Main Contact Form"]' ); ?>
                             </div>
                         </div>
                     </div>
