@@ -11,9 +11,6 @@ $brands_content = get_field('brands_content');
     <img class="splatter" id="splatter-one" src="<?php bloginfo('template_directory');?>/assets/img/splat_one.png" />
     <img class="splatter" id="splatter-two" src="<?php bloginfo('template_directory');?>/assets/img/splat_two.png" />
 
-
-
-
     <div class="image-top">
         <img data-src="<?php bloginfo('template_directory');?>/assets/img/alien_fill.png" class="img-responsive" />
     </div>
@@ -64,8 +61,6 @@ $brands_content = get_field('brands_content');
                         </div>
                     </div>
                     <div id="randomize">
-                        <!--<div class="content container">-->
-
                         <div class="row">
                             <div class="col-xs-3">
                                 <div>
@@ -157,11 +152,7 @@ $brands_content = get_field('brands_content');
                                 </div>
                             </div>
                         </div>
-                        <!--</div>-->
                     </div>
-
-
-
                 </div>
                 <div class="col-md-6">
                     <div class="content-container">
@@ -174,16 +165,11 @@ $brands_content = get_field('brands_content');
                             <button class="cloud-btn" id="shop-link" href="www.google.co.uk">Shop</button>
                         </div>
                         </div>
-
                     </div>
-                    <!-- <div class="shop-btn">
-                        <img class="splatter" id="splatter-three" src="<?php bloginfo('template_directory');?>/assets/img/splat_one.png" />
-                        <button>Shop</button>
-                    </div> -->
                 </div>
             </div>
         </div>
     </div>
-</div>
+
 
 <!-- END OF OUR BRANDS SECTION -->
