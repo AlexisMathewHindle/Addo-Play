@@ -10,13 +10,13 @@
     background: linear-gradient(to bottom, #f0c30f, #f38848);
     /*Standard*/
     .feature-container {
-        max-width: 50vw;
+        max-width: 62vw;
         display: block;
         margin: 0 auto;
         img {
             width: 100%;
             height: auto;
-            margin-top: 10vh;
+            margin-top: 8vh;
             @media only screen and (min-width: 300px) and (max-width: 767px) {
                 margin-top: 18vh;
             }
