@@ -8,7 +8,7 @@ $(document).ready(function() {
         //     $('#fullpage').toggleClass('nav-index');
         // },600);
         $('.nav-menu').toggleClass('js-nav-menu');
-        
+
         if ($(window).width() > 767) {
             $('.buttonset').toggleClass('js-buttonset');
             //     alert('This is working');
@@ -62,7 +62,7 @@ $(document).ready(function() {
             //SCRIPT TO CHANGE BACKGROUND COLOR OF MENU BAR FOR FIRST SLIDE
             if (index == 2 && direction == 'up') {
                 $('.nav-menu').css('background', '#00a3df');
-                
+
             }
             // SCRIPT TO CHANGE BACKGROUND COLOR OF MENU BAR FOR SECOND SLIDE
             if (index == 1) {

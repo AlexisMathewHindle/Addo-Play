@@ -62,10 +62,20 @@ $brands_content = get_field('brands_content');
                     </div>
                     <div id="randomize">
                         <div class="row">
-                            <div class="col-xs-3">
+                            <div id="slot-col-1" class="col-xs-3">
                                 <div>
                                     <div id="test-slot">
                                         <div id="machine1" class="randomizeMachine">
+                                            <div><img src="<?php bloginfo('template_directory');?>/assets/img/Slots/brand-eight.jpg" /></div>
+                                            <div><img src="<?php bloginfo('template_directory');?>/assets/img/Slots/brand-two.jpg" /></div>
+                                            <div><img src="<?php bloginfo('template_directory');?>/assets/img/Slots/brand-three.jpg" /></div>
+                                            <div><img src="<?php bloginfo('template_directory');?>/assets/img/Slots/brand-four.jpg" /></div>
+                                            <div><img src="<?php bloginfo('template_directory');?>/assets/img/Slots/brand-five.jpg" /></div>
+                                            <div><img src="<?php bloginfo('template_directory');?>/assets/img/Slots/brand-six.jpg" /></div>
+                                            <div><img src="<?php bloginfo('template_directory');?>/assets/img/Slots/brand-seven.jpg" /></div>
+                                            <div><img src="<?php bloginfo('template_directory');?>/assets/img/Slots/brand-one.jpg" /></div>
+                                            <div><img src="<?php bloginfo('template_directory');?>/assets/img/Slots/brand-nine.jpg" /></div>
+                                            <div><img src="<?php bloginfo('template_directory');?>/assets/img/Slots/brand-ten.jpg" /></div>
                                             <div><img src="<?php bloginfo('template_directory');?>/assets/img/Slots/brand-eight.jpg" /></div>
                                             <div><img src="<?php bloginfo('template_directory');?>/assets/img/Slots/brand-two.jpg" /></div>
                                             <div><img src="<?php bloginfo('template_directory');?>/assets/img/Slots/brand-three.jpg" /></div>
@@ -81,7 +91,7 @@ $brands_content = get_field('brands_content');
                                 </div>
                             </div>
 
-                            <div class="col-xs-3">
+                            <div id="slot-col-2" class="col-xs-3">
                                 <div>
                                     <div id="machine2" class="randomizeMachine">
                                         <div><img src="<?php bloginfo('template_directory');?>/assets/img/Slots/brand-five.jpg" /></div>
@@ -94,13 +104,33 @@ $brands_content = get_field('brands_content');
                                         <div><img src="<?php bloginfo('template_directory');?>/assets/img/Slots/brand-three.jpg" /></div>
                                         <div><img src="<?php bloginfo('template_directory');?>/assets/img/Slots/brand-two.jpg" /></div>
                                         <div><img src="<?php bloginfo('template_directory');?>/assets/img/Slots/brand-eight.jpg" /></div>
+                                        <div><img src="<?php bloginfo('template_directory');?>/assets/img/Slots/brand-five.jpg" /></div>
+                                        <div><img src="<?php bloginfo('template_directory');?>/assets/img/Slots/brand-one.jpg" /></div>
+                                        <div><img src="<?php bloginfo('template_directory');?>/assets/img/Slots/brand-ten.jpg" /></div>
+                                        <div><img src="<?php bloginfo('template_directory');?>/assets/img/Slots/brand-four.jpg" /></div>
+                                        <div><img src="<?php bloginfo('template_directory');?>/assets/img/Slots/brand-nine.jpg" /></div>
+                                        <div><img src="<?php bloginfo('template_directory');?>/assets/img/Slots/brand-six.jpg" /></div>
+                                        <div><img src="<?php bloginfo('template_directory');?>/assets/img/Slots/brand-seven.jpg" /></div>
+                                        <div><img src="<?php bloginfo('template_directory');?>/assets/img/Slots/brand-three.jpg" /></div>
+                                        <div><img src="<?php bloginfo('template_directory');?>/assets/img/Slots/brand-two.jpg" /></div>
+                                        <div><img src="<?php bloginfo('template_directory');?>/assets/img/Slots/brand-eight.jpg" /></div>
                                     </div>
                                 </div>
                             </div>
 
-                            <div class="col-xs-3">
+                            <div id="slot-col-3" class="col-xs-3">
                                 <div>
                                     <div id="machine3" class="randomizeMachine">
+                                        <div><img src="<?php bloginfo('template_directory');?>/assets/img/Slots/brand-eight.jpg" /></div>
+                                        <div><img src="<?php bloginfo('template_directory');?>/assets/img/Slots/brand-two.jpg" /></div>
+                                        <div><img src="<?php bloginfo('template_directory');?>/assets/img/Slots/brand-one.jpg" /></div>
+                                        <div><img src="<?php bloginfo('template_directory');?>/assets/img/Slots/brand-nine.jpg" /></div>
+                                        <div><img src="<?php bloginfo('template_directory');?>/assets/img/Slots/brand-ten.jpg" /></div>
+                                        <div><img src="<?php bloginfo('template_directory');?>/assets/img/Slots/brand-six.jpg" /></div>
+                                        <div><img src="<?php bloginfo('template_directory');?>/assets/img/Slots/brand-three.jpg" /></div>
+                                        <div><img src="<?php bloginfo('template_directory');?>/assets/img/Slots/brand-five.jpg" /></div>
+                                        <div><img src="<?php bloginfo('template_directory');?>/assets/img/Slots/brand-four.jpg" /></div>
+                                        <div><img src="<?php bloginfo('template_directory');?>/assets/img/Slots/brand-seven.jpg" /></div>
                                         <div><img src="<?php bloginfo('template_directory');?>/assets/img/Slots/brand-eight.jpg" /></div>
                                         <div><img src="<?php bloginfo('template_directory');?>/assets/img/Slots/brand-two.jpg" /></div>
                                         <div><img src="<?php bloginfo('template_directory');?>/assets/img/Slots/brand-one.jpg" /></div>
@@ -115,7 +145,7 @@ $brands_content = get_field('brands_content');
                                 </div>
                             </div>
 
-                            <div class="col-xs-3">
+                            <div id="slot-col-4" class="col-xs-3">
                                 <div>
                                     <div id="machine4" class="randomizeMachine">
                                         <div><img src="<?php bloginfo('template_directory');?>/assets/img/Slots/brand-eight.jpg" /></div>

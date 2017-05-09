@@ -66,8 +66,30 @@
             color: #fff;
         }
     }
-    
+
     button {
         color: #00a3df !important;
+    }
+}
+
+@media all and (max-width: 992px) {
+
+    #section-two {
+        overflow: hidden;
+
+         .video_container img {
+             padding: 20px;
+         }
+    }
+
+    .container {
+        padding: 70px;
+        width: 100%;
+
+        .content-container {
+              text-align: center;
+              margin: 0;
+              max-width: 100%;
+        }
     }
 }

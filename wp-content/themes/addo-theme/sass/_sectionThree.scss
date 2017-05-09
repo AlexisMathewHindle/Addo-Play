@@ -30,10 +30,10 @@
         opacity: 1;
         -webkit-transition-delay: 1s;
         /* Safari */
-        transition-delay: 0.8s;
-        -webkit-transition-duration: .4s;
+        transition-delay: 1s;
+        -webkit-transition-duration: .5s;
         /* Safari */
-        transition-duration: .4s;
+        transition-duration: .5s;
         z-index: 1000;
     }
     .js-animate--bottom {
@@ -136,6 +136,7 @@
         width: 100%;
         height: 27vh;
         display: block;
+        max-height: 204px;
         margin: 50% auto;
         border-radius: 30%;
     }
@@ -170,5 +171,74 @@
 
     #shop-link {
         margin-left: 20px;
+    }
+}
+
+@media all and (max-width: 1199px) {
+    #section-three {
+        #slot-col-1 {
+            display: none;
+        }
+
+        #slot-col-2,
+        #slot-col-3,
+        #slot-col-4 {
+            width: 33.333%
+        }
+
+        .btn-group-randomize {
+            left: 18px;
+        }
+
+        .content-container {
+            padding-left: 50px;
+        }
+
+        .btn-slot-small {
+            .ranomizeButton {
+                transform: scale(0.9);
+                -webkit-transform: scale(0.9);
+            }
+        }
+
+        .ranomizeButton {
+            transform: scale(0.9);
+            -webkit-transform: scale(0.9);
+        }
+    }
+}
+
+@media all and (max-width: 992px) {
+    #section-three {
+         #slot-col-1 {
+                display: inline-block;
+            }
+
+            #slot-col-2,
+            #slot-col-3,
+            #slot-col-4 {
+                width: 25%
+            }
+
+        .randomizeMachine {
+            max-height: 220px;
+            margin: 40px 0;
+            height: 220px;
+        }
+
+        .btn-group-randomize {
+            left: 38px;
+        }
+
+        #randomize {
+            padding: 0 50px;
+        }
+
+        .content-container {
+            padding: 0;
+            max-width: none;
+            margin: 50px 0;
+            text-align: center;
+        }
     }
 }
