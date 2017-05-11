@@ -25,7 +25,7 @@
                         <div class="content">
                             <h1>Contact Us</h1>
                             <p>Looking to talk to a member of our team?</p>
-                            <p>Don't hesiate to give us a shout by clicking on the button below. Fill in the form and we'll get back to you soon as we can.</p>
+                            <p>Feel free to give us a shout by clicking on the button below. Fill in the form and one of our friendly team will we'll get back to you soon as we can.</p>
                             <button class="cloud-btn" id="js-contactUs" data-toggle="modal" data-target="#contactModal"><p class="cloud-p">Contact Us</p></button>
                         </div>
                     </div>

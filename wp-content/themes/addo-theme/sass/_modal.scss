@@ -38,10 +38,11 @@
         top: 50%;
         font-size: 60px;
     }
-    .svg-img {
-        width: 10vh;
-        height: auto;
-    }
+    /* REPLACED MODAL STYLE - NICO */
+    // .svg-img {
+    //     width: 10vh;
+    //     height: auto;
+    // }
 }
 
 .teamSlider {
@@ -88,16 +89,24 @@
     }
 }
 
-.svg-img {
-    height: 300px;
-}
+/* REPLACED MODAL STYLE - NICO */
+// .svg-img {
+//     height: 300px;
+// }
 
 .svg-hover {
     filter: drop-shadow(0 10px 10px rgba(254, 254, 254, 0.9));
 }
 
-.slick-slide img {
-    margin: 0 auto;
+.slick-slide {
+    img {
+        margin: 0 auto;
+        border-radius: 100px;
+    }
+
+    .container {
+        height: 170px;
+    }
 }
 
 .lower {

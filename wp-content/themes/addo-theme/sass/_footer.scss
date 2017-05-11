@@ -34,7 +34,10 @@
             text-align: center;
             // margin: 0 auto;
             // max-width: 67%;
+            padding: 0;
+
             li {
+                margin: 0 10px;
                 display: inline-block;
                 background-color: #fff;
                 // margin: 0 15px;
@@ -77,6 +80,11 @@
 
 .footer-container--two {
     background: $yellow;
+
+    p {
+      top: -5px;
+      position: relative;
+    }
 }
 
 .footer-container--three {
@@ -85,4 +93,20 @@
 
 .footer-container--four {
     background: $pink;
+}
+
+#news-container {
+    margin-top: 60px;
+}
+
+@media all and (max-width: 767px) {
+    .footer-container--two {
+        p {
+            text-align: center;
+            float: none !important;
+            margin-bottom: 4px;
+        }
+
+        padding: 20px 20px 7px;
+    }
 }

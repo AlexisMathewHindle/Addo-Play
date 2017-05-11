@@ -91,15 +91,15 @@ get_header(); ?>
 
 <?php get_template_part('template-parts/content','five');?>
 
-    
 
 
-    
-
-    
 
 
-    
+
+
+
+
+
 
         <!-- FOOTER -->
 
@@ -107,9 +107,9 @@ get_header(); ?>
         <div class="footer-container footer-container--one">
             <div class="social-icons">
                 <ul>
-                    <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.linkedin.com/company/10619213"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.facebook.com/addoplay/?hc_ref=SEARCH&fref=nf"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li><a href="https://twitter.com/addoplay"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
                     <li>
                         <a href="#">
                             <h1>@addoplay.com</h1>
@@ -120,8 +120,8 @@ get_header(); ?>
             </div>
         </div>
         <div class="footer-container footer-container--two">
-           <p style="float: left;">	&copy; <?php echo date("Y"); ?> Copyright. <span>All rights reserved.</span></p> 
-           <p style="float: right;">Please <a href="<?php get_site_url();?>/privacy-policy/">click here</a> to our the privacy policy</p>
+           <p style="float: left;">	&copy; <?php echo date("Y"); ?> Copyright. <span>All rights reserved.</span></p>
+           <p style="float: right;">Please <a href="<?php get_site_url();?>/privacy-policy/">click here</a> to see our privacy policy</p>
 
         </div>
         <div class="footer-container footer-container--three"></div>
@@ -131,7 +131,9 @@ get_header(); ?>
     </div>
 </div><!-- END OF FULLPAGE - DO NOT DELETE -->
 
-<!-- Team Slider Modal -->
+
+
+<!-- Team Slider Modal    SAVED - NICO - 11/05/17   -->
 
 <div class="modal fade teamModal" id="teamModal" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
@@ -149,25 +151,25 @@ get_header(); ?>
                         <div class="container">
                             <div class="row">
                                 <div class="col-xs-offset-1 col-xs-5">
-                                    <div class="col-xs-3">
-                                        <img class="svg-img" id="teamOne" src="<?php bloginfo('template_directory');?>/assets/img/dave.png" alt="Dave Character" />
+                                    <div class="col-xs-4">
+                                        <img class="svg-img" id="teamOne" src="<?php bloginfo('template_directory');?>/assets/img/-Team/Dave.jpg" alt="Dave Character" />
                                     </div>
-                                    <div class="col-xs-3">
-                                        <img class="svg-img lower" id="teamTwo" src="<?php bloginfo('template_directory');?>/assets/img/terry.png" alt="Terry Character" />
+                                    <div class="col-xs-4">
+                                        <img class="svg-img lower" id="teamTwo" src="<?php bloginfo('template_directory');?>/assets/img/-Team/Mary.jpg" alt="Mary Character" />
                                     </div>
-                                    <div class="col-xs-3">
-                                        <img class="svg-img" id="teamThree" src="<?php bloginfo('template_directory');?>/assets/img/tracy.png" alt="Tracy Character" />
+                                    <div class="col-xs-4">
+                                        <img class="svg-img" id="teamThree" src="<?php bloginfo('template_directory');?>/assets/img/-Team/Janet.jpg" alt="Janet Character" />
                                     </div>
                                 </div>
                                 <div class="col-xs-5">
-                                    <div class="col-xs-3">
-                                        <img class="svg-img lower" id="teamFour" src="<?php bloginfo('template_directory');?>/assets/img/angela.png" alt="Angela Character" />
+                                    <div class="col-xs-4">
+                                        <img class="svg-img lower" id="teamFour" src="<?php bloginfo('template_directory');?>/assets/img/-Team/Andy C.jpg" alt="Andy C Character" />
                                     </div>
-                                    <div class="col-xs-3">
-                                        <img class="svg-img" id="teamFive" src="<?php bloginfo('template_directory');?>/assets/img/andy.png" alt="Andy Character" />
+                                    <div class="col-xs-4">
+                                        <img class="svg-img" id="teamFive" src="<?php bloginfo('template_directory');?>/assets/img/-Team/Chaz.jpg" alt="Chaz Character" />
                                     </div>
-                                    <div class="col-xs-3">
-                                        <img class="svg-img lower" id="teamSix" src="<?php bloginfo('template_directory');?>/assets/img/mary.png" alt="Mary Character" />
+                                    <div class="col-xs-4">
+                                        <img class="svg-img lower" id="teamSix" src="<?php bloginfo('template_directory');?>/assets/img/-Team/Jen.jpg" alt="Jen Character" />
                                     </div>
                                 </div>
                             </div>
@@ -177,27 +179,83 @@ get_header(); ?>
                         <div class="container">
                             <div class="row">
                                 <div class="col-xs-offset-1 col-xs-5">
-                                    <div class="col-xs-3">
-                                        <img class="svg-img" id="teamSeven" src="<?php bloginfo('template_directory');?>/assets/img/susanna.png" alt="Susanna Character" />
+                                    <div class="col-xs-4">
+                                        <img class="svg-img" id="teamSeven" src="<?php bloginfo('template_directory');?>/assets/img/-Team/Isabelle.jpg" alt="Isabelle Character" />
                                     </div>
-                                    <div class="col-xs-3">
-                                        <img class="svg-img lower" id="teamEight" src="<?php bloginfo('template_directory');?>/assets/img/leo.png" alt="Leo Character" />
+                                    <div class="col-xs-4">
+                                        <img class="svg-img lower" id="teamEight" src="<?php bloginfo('template_directory');?>/assets/img/-Team/Angela.jpg" alt="Angela Character" />
                                     </div>
-                                    <div class="col-xs-3">
-                                        <img class="svg-img" id="teamNine" src="<?php bloginfo('template_directory');?>/assets/img/jennifer.png" alt="Jennifer Character" />
+                                    <div class="col-xs-4">
+                                        <img class="svg-img" id="teamNine" src="<?php bloginfo('template_directory');?>/assets/img/-Team/Andy T.jpg" alt="Andy T Character" />
                                     </div>
                                 </div>
                                 <div class="col-xs-5">
-                                    <div class="col-xs-3">
-                                        <img class="svg-img lower" id="teamTen" src="<?php bloginfo('template_directory');?>/assets/img/janet.png" alt="Janet Character" />
+                                    <div class="col-xs-4">
+                                        <img class="svg-img lower" id="teamTen" src="<?php bloginfo('template_directory');?>/assets/img/-Team/Kirsty.jpg" alt="Janet Character" />
                                     </div>
-                                    <div class="col-xs-3">
-                                        <img class="svg-img" id="teamEleven" src="<?php bloginfo('template_directory');?>/assets/img/character_one.svg" />
+                                    <div class="col-xs-4">
+                                        <img class="svg-img" id="teamEleven" src="<?php bloginfo('template_directory');?>/assets/img/-Team/Amelia.jpg" alt="Amelia Character" />
                                     </div>
-                                    <!--<div class="col-xs-3">
-                                        <img class="svg-img lower" id="teamTwelve" src="<?php bloginfo('template_directory');?>/assets/img/character_one.svg" />
-                                    </div>-->
+                                    <div class="col-xs-4">
+                                        <img class="svg-img lower" id="teamTwelve" src="<?php bloginfo('template_directory');?>/assets/img/-Team/Teresa.jpg" alt="Teresa Character"  />
+                                    </div>
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xs-offset-1 col-xs-5">
+                                    <div class="col-xs-4">
+                                        <img class="svg-img" id="teamThirteen" src="<?php bloginfo('template_directory');?>/assets/img/-Team/Stefan.jpg" alt="Stefan Character" />
+                                    </div>
+                                    <div class="col-xs-4">
+                                        <img class="svg-img lower" id="teamFourteen" src="<?php bloginfo('template_directory');?>/assets/img/-Team/Leo.jpg" alt="Leo Character" />
+                                    </div>
+                                    <div class="col-xs-4">
+                                        <img class="svg-img" id="teamFifteen" src="<?php bloginfo('template_directory');?>/assets/img/-Team/Jogy.jpg" alt="Jogy Character" />
+                                    </div>
+                                </div>
+                                <div class="col-xs-5">
+                                    <div class="col-xs-4">
+                                        <img class="svg-img lower" id="teamSixteen" src="<?php bloginfo('template_directory');?>/assets/img/-Team/Patrick.jpg" alt="Patrick Character" />
+                                    </div>
+                                    <div class="col-xs-4">
+                                        <img class="svg-img" id="teamSeventeen" src="<?php bloginfo('template_directory');?>/assets/img/-Team/Susanna.jpg" alt="Susanna Character" />
+                                    </div>
+                                    <div class="col-xs-4">
+                                        <img class="svg-img lower" id="teamEighteen" src="<?php bloginfo('template_directory');?>/assets/img/-Team/Jovin.jpg" alt="Jovin Character"  />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xs-offset-1 col-xs-5">
+                                    <div class="col-xs-4">
+                                        <img class="svg-img" id="teamNineteen" src="<?php bloginfo('template_directory');?>/assets/img/-Team/Vader.jpg" alt="Vader Character" />
+                                    </div>
+                                    <div class="col-xs-4">
+                                        <img class="svg-img lower" id="teamTwenty" src="<?php bloginfo('template_directory');?>/assets/img/-Team/Jennifer.jpg" alt="Jennifer Character" />
+                                    </div>
+                                    <!-- <div class="col-xs-3">
+                                        <img class="svg-img" id="teamFifteen" src="<?php bloginfo('template_directory');?>/assets/img/-Team/Andy T.jpg" alt="Andy T Character" />
+                                    </div> -->
+                                </div>
+                                <!-- <div class="col-xs-5">
+                                    <div class="col-xs-3">
+                                        <img class="svg-img lower" id="teamSixteen" src="<?php bloginfo('template_directory');?>/assets/img/-Team/Kirsty.jpg" alt="Janet Character" />
+                                    </div>
+                                    <div class="col-xs-3">
+                                        <img class="svg-img" id="teamSeventeen" src="<?php bloginfo('template_directory');?>/assets/img/Amelia.jpg" alt="Amelia Character" />
+                                    </div>
+                                    <div class="col-xs-3">
+                                        <img class="svg-img lower" id="teamEighteen" src="<?php bloginfo('template_directory');?>/assets/img/Teresa.jpg" alt="Teresa Character"  />
+                                    </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
@@ -792,7 +850,7 @@ get_header(); ?>
                                 </div>
                             </div>
                         </div>
-                        
+
                     </div>
                     <!-- END OF BRANDSLIDER CAROUSEL -->
 
@@ -836,7 +894,7 @@ get_header(); ?>
                                     <img id="star-five" src="<?php bloginfo('template_directory');?>/assets/img/star_fill.png" class="img-responsive" />
                                     <img id="star-six" src="<?php bloginfo('template_directory');?>/assets/img/star_fill.png" class="img-responsive" />
 
-                                    <!--<form action="#">
+                                    <form action="#">
                                         <div class="form-content">
                                             <input type="text" name="firstname" placeholder="Name" />
                                             <input type="text" name="company" placeholder="Company" />
@@ -844,8 +902,8 @@ get_header(); ?>
                                             <textarea rows="6 " cols="50" placeholder="Message"></textarea>
                                         </div>
                                         <img src="<?php bloginfo('template_directory');?>/assets/img/cloud_submit.png" alt=" " />
-                                        <input type="submit" value="send "> 
-                                    </form>-->
+                                        <input type="submit" value="send ">
+                                    </form>
                                     <?php echo do_shortcode( '[contact-form-7 id="29" title="Main Contact Form"]' ); ?>
                             </div>
                         </div>

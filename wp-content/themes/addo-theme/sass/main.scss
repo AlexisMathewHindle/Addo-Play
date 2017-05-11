@@ -470,19 +470,88 @@ body {
     width: 180px;
 }
 
+#privacy-page {
+    margin-top: 100px !important;
+}
+
+.nav-menu img {
+    display: inline-block;
+    width: initial;
+    height: 109px;
+    padding-top: 35px;
+    padding-left: 35px;
+}
+
 
 @media all and (max-width: 992px) {
 
     #section-three {
         overflow: hidden;
     }
-    
+
     .container {
-        padding: 70px;
+        padding: 0 70px 70px;
         width: 100%;
     }
 
     .fp-tableCell {
         height: auto !important;
+    }
+}
+
+
+@media all and (max-width: 930px) {
+    .nav-menu ul li {
+        margin: 0 2%;
+        font-size: 20px;
+    }
+}
+
+
+@media all and (max-width: 767px) {
+    .nav-menu {
+        img {
+            display: inline-block;
+            width: auto;
+            height: 150px;
+            padding-top: 47px;
+            padding-left: 0;
+        }
+
+        ul li {
+            font-size: 27px;
+            padding: 25px;
+        }
+    }
+}
+
+
+@media all and (max-width: 730px) {
+
+    .container {
+        padding: 50px;
+    }
+}
+
+@media all and (max-width: 600px) {
+    h1 {
+        font-size: 35px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .container {
+        padding: 30px;
+    }
+}
+
+@media all and (max-width: 450px) {
+
+    .container {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 30px;
     }
 }

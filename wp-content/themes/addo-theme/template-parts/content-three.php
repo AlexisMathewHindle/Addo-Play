@@ -22,7 +22,7 @@ $brands_content = get_field('brands_content');
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <div id="mobile-brands">
+                    <!-- <div id="mobile-brands">
                         <div class="col-xs-4">
                             <img src="<?php bloginfo('template_directory');?>/assets/img/brand_eight.png" />
                         </div>
@@ -59,7 +59,7 @@ $brands_content = get_field('brands_content');
                         <div class="col-xs-4">
                             <img src="<?php bloginfo('template_directory');?>/assets/img/brand_eight.png" />
                         </div>
-                    </div>
+                    </div> -->
                     <div id="randomize">
                         <div class="row">
                             <div id="slot-col-1" class="col-xs-3">

@@ -2,7 +2,7 @@
     background: #e51355;
     .map-container {
         width: 100%;
-        height: 60vh;
+        height: 450px;
         // background: red;
         position: relative;
         @media only screen and (max-width: 992px) {
@@ -76,7 +76,7 @@
         }
         #aeroplane {
             position: absolute;
-            bottom: 0%;
+            bottom: 4%;
             left: 12%;
             width: 50%;
             z-index: 1000;
@@ -104,6 +104,74 @@
             p {
                 color: #fff;
             }
+        }
+    }
+}
+
+@media all and (max-width: 1199px) {
+    #section-five {
+        .content-container {
+        padding-left: 50px;
+        margin-right: 20px;
+        }
+
+        .section-container {
+            padding-top: 50px;
+        }
+    }
+}
+
+@media all and (max-width: 991px) {
+    .map-container {
+        margin-top: 20px;
+    }
+
+    #section-five {
+        .section-container {
+            padding-top: 0;
+        }
+
+        .container {
+            padding-top: 20px;
+        }
+    }
+
+    .content-container {
+        h1 {
+            margin-bottom: 15px;
+        }
+    }
+}
+
+
+
+@media all and (max-width: 767px) {
+  #section-five {
+        .section-container {
+            padding-top: 0;
+        }
+
+        .container {
+            padding: 10px 70px 70px 70px;
+        }
+    }
+}
+
+@media all and (max-width: 500px) {
+    #section-five {
+        overflow: hidden;
+        
+        .map-container {
+            margin-top: 20%;
+        }
+
+        .content-container {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            padding: 10px 30px 50px 30px;
         }
     }
 }

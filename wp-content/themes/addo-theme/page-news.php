@@ -11,7 +11,7 @@
 get_header();?>
 
 
-<div class="container">
+<div id="news-container" class="container">
 <?php $the_query = new WP_Query( 'posts_per_page=5' ); ?>
 
 <?php while ($the_query -> have_posts()) : $the_query -> the_post(); ?>
@@ -31,7 +31,7 @@ get_header();?>
         </div>
     </div>
 
-<?php 
+<?php
 endwhile;
 wp_reset_postdata();
 ?>

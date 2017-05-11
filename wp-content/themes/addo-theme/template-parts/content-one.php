@@ -1,7 +1,7 @@
 
 <div class="section" id="section-one" data-anchor="Home">
-    <div class="container">
-      <div class="feature-container">
+    <div id="feature-container" class="section-container">
+      <div id="feature-container-inner" class="container">
           <img data-src="<?php bloginfo('template_directory');?>/assets/img/Addo-Play-Logo.png" />
       </div>
       <h1 class="text-center">

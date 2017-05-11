@@ -65,9 +65,9 @@
 
     <div class="social-header--container">
         <ul>
-            <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.linkedin.com/company/10619213"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.facebook.com/addoplay/?hc_ref=SEARCH&fref=nf"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+            <li><a href="https://twitter.com/addoplay"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
 
         </ul>
     </div>

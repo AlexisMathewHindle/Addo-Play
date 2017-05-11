@@ -43,8 +43,41 @@
 
         .archive-button {
             .cloud-btn {
-
+                margin-right: 20px;
+                margin-top: 20px;
             }
         }
     }
+}
+
+
+@media all and (max-width: 992px) {
+    #section-four {
+        img {
+            padding: 20px;
+        }
+
+        .content-container {
+            padding: 0;
+            max-width: none;
+            margin: 20px 0 0;
+            text-align: center;
+        }
+    }
+}
+
+@media all and (max-width: 767px) {
+  #section-four {
+    .content-container {
+      margin: 0;
+    }
+  }
+}
+
+@media all and (max-width: 500px) {
+  #section-four {
+    img {
+      padding: 0;
+    }
+  }
 }

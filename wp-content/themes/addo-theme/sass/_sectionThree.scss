@@ -242,3 +242,27 @@
         }
     }
 }
+
+@media all and (max-width: 767px) {
+  #section-three {
+    .content-container {
+      margin: 120px 0;
+    }
+  }
+}
+
+
+@media all and (max-width: 680px) {
+    #section-three {
+        .image-top {
+            img {
+                width: 63%;
+            }
+        }
+
+        .image-bottom  {
+            max-width: 86%;
+            right: 0%;
+        }
+    }
+}

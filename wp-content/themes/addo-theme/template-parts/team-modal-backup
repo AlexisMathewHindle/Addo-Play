@@ -1,0 +1,273 @@
+<!-- Team Slider Modal    SAVED - NICO - 11/05/17   -->
+
+<div class="modal fade teamModal" id="teamModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+            </div>
+            <div class="modal-body">
+                <!-- Team Slider -->
+                <div class="teamSlider">
+                    <div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xs-offset-1 col-xs-5">
+                                    <div class="col-xs-3">
+                                        <img class="svg-img" id="teamOne" src="<?php bloginfo('template_directory');?>/assets/img/dave.png" alt="Dave Character" />
+                                    </div>
+                                    <div class="col-xs-3">
+                                        <img class="svg-img lower" id="teamTwo" src="<?php bloginfo('template_directory');?>/assets/img/terry.png" alt="Terry Character" />
+                                    </div>
+                                    <div class="col-xs-3">
+                                        <img class="svg-img" id="teamThree" src="<?php bloginfo('template_directory');?>/assets/img/tracy.png" alt="Tracy Character" />
+                                    </div>
+                                </div>
+                                <div class="col-xs-5">
+                                    <div class="col-xs-3">
+                                        <img class="svg-img lower" id="teamFour" src="<?php bloginfo('template_directory');?>/assets/img/angela.png" alt="Angela Character" />
+                                    </div>
+                                    <div class="col-xs-3">
+                                        <img class="svg-img" id="teamFive" src="<?php bloginfo('template_directory');?>/assets/img/andy.png" alt="Andy Character" />
+                                    </div>
+                                    <div class="col-xs-3">
+                                        <img class="svg-img lower" id="teamSix" src="<?php bloginfo('template_directory');?>/assets/img/mary.png" alt="Mary Character" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xs-offset-1 col-xs-5">
+                                    <div class="col-xs-3">
+                                        <img class="svg-img" id="teamSeven" src="<?php bloginfo('template_directory');?>/assets/img/susanna.png" alt="Susanna Character" />
+                                    </div>
+                                    <div class="col-xs-3">
+                                        <img class="svg-img lower" id="teamEight" src="<?php bloginfo('template_directory');?>/assets/img/leo.png" alt="Leo Character" />
+                                    </div>
+                                    <div class="col-xs-3">
+                                        <img class="svg-img" id="teamNine" src="<?php bloginfo('template_directory');?>/assets/img/jennifer.png" alt="Jennifer Character" />
+                                    </div>
+                                </div>
+                                <div class="col-xs-5">
+                                    <div class="col-xs-3">
+                                        <img class="svg-img lower" id="teamTen" src="<?php bloginfo('template_directory');?>/assets/img/janet.png" alt="Janet Character" />
+                                    </div>
+                                    <div class="col-xs-3">
+                                        <img class="svg-img" id="teamEleven" src="<?php bloginfo('template_directory');?>/assets/img/character_one.svg" />
+                                    </div>
+                                    <!--<div class="col-xs-3">
+                                        <img class="svg-img lower" id="teamTwelve" src="<?php bloginfo('template_directory');?>/assets/img/character_one.svg" />
+                                    </div>-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="teamSlider-mobile">
+                    <div>
+                        <img class="svg-img" id="teamOne-mobile" src="<?php bloginfo('template_directory');?>/assets/img/dave.png" alt="Dave Character" />
+                    </div>
+                    <div>
+                        <img class="svg-img" id="teamTwo-mobile" src="<?php bloginfo('template_directory');?>/assets/img/terry.png" alt="Terry Character" />
+                    </div>
+                    <div>
+                        <img class="svg-img" id="teamThree" src="<?php bloginfo('template_directory');?>/assets/img/tracy.png" alt="Tracy Character" />
+                    </div>
+                    <div>
+                        <img class="svg-img" id="teamFour" src="<?php bloginfo('template_directory');?>/assets/img/angela.png" alt="Angela Character" />
+                    </div>
+                    <div>
+                        <img class="svg-img" id="teamFive" src="<?php bloginfo('template_directory');?>/assets/img/andy.png" alt="Andy Character" />
+                    </div>
+                    <div>
+                        <img class="svg-img" id="teamSix" src="<?php bloginfo('template_directory');?>/assets/img/mary.png" alt="Mary Character" />
+                    </div>
+                    <div>
+                        <img class="svg-img" id="teamSeven" src="<?php bloginfo('template_directory');?>/assets/img/susanna.png" alt="Susanna Character" />
+                    </div>
+                    <div>
+                        <img class="svg-img" id="teamEight" src="<?php bloginfo('template_directory');?>/assets/img/leo.png" alt="Leo Character" />
+                    </div>
+                    <div>
+                        <img class="svg-img" id="teamNine" src="<?php bloginfo('template_directory');?>/assets/img/jennifer.png" alt="Jennifer Character" />
+                    </div>
+                    <div>
+                        <img class="svg-img" id="teamTen" src="<?php bloginfo('template_directory');?>/assets/img/janet.png" alt="Janet Character" />
+                    </div>
+                    <div>
+                        <img class="svg-img" id="teamEleven" src="<?php bloginfo('template_directory');?>/assets/img/character_one.svg" />
+                    </div>
+                </div>
+
+                <div class="slider-nav">
+                    <div>
+                        <div class="teamContent-mobile">
+                            <h1><?php echo $team_one_name ;?></h1>
+                            <h2><?php echo $team_one_title;?></h2>
+                            <?php echo $team_one_content;?>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="teamContent-mobile">
+                           <h1><?php echo $team_two_name ;?></h1>
+                            <h2><?php echo $team_two_title;?></h2>
+                            <?php echo $team_two_content;?>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="teamContent-mobile">
+                            <h1><?php echo $team_three_name ;?></h1>
+                            <h2><?php echo $team_three_title;?></h2>
+                            <?php echo $team_three_content;?>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="teamContent-mobile">
+                            <h1><?php echo $team_four_name ;?></h1>
+                            <h2><?php echo $team_four_title;?></h2>
+                            <?php echo $team_four_content;?>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="teamContent-mobile">
+                            <h1><?php echo $team_five_name ;?></h1>
+                            <h2><?php echo $team_five_title;?></h2>
+                            <?php echo $team_five_content;?>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="teamContent-mobile">
+                            <h1><?php echo $team_sixth_name ;?></h1>
+                            <h2><?php echo $team_sixth_title;?></h2>
+                            <?php echo $team_sixth_content;?>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="teamContent-mobile">
+                            <h1><?php echo $team_seven_name ;?></h1>
+                            <h2><?php echo $team_seven_title;?></h2>
+                            <?php echo $team_seven_content;?>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="teamContent-mobile">
+                            <h1><?php echo $team_eight_name ;?></h1>
+                            <h2><?php echo $team_eight_title;?></h2>
+                            <?php echo $team_eight_content;?>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="teamContent-mobile">
+                            <h1><?php echo $team_nine_name ;?></h1>
+                            <h2><?php echo $team_nine_title;?></h2>
+                            <?php echo $team_nine_content;?>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="teamContent-mobile">
+                            <h1><?php echo $team_ten_name ;?></h1>
+                            <h2><?php echo $team_ten_title;?></h2>
+                            <?php echo $team_ten_content;?>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="teamContent-mobile">
+                            <h1><?php echo $team_eleven_name ;?></h1>
+                            <h2><?php echo $team_eleven_title;?></h2>
+                            <?php echo $team_eleven_content;?>
+                        </div>
+                    </div>
+                    <!--<div>
+                        <div class="teamContent-mobile">
+                            <h1><?php echo $team_twelve_name ;?></h1>
+                            <h2><?php echo $team_twelve_title;?></h2>
+                            <?php echo $team_twelve_content;?>
+                        </div>
+                    </div>-->
+                </div>
+
+
+                <div class="team-content js-team-content" id="team-one">
+                    <h1><?php echo $team_one_name ;?></h1>
+                    <h2><?php echo $team_one_title;?></h2>
+                    <?php echo $team_one_content;?>
+                </div>
+
+                <div class="team-content" id="team-two">
+                    <h1><?php echo $team_two_name ;?></h1>
+                    <h2><?php echo $team_two_title;?></h2>
+                    <?php echo $team_two_content;?>
+                </div>
+
+                <div class="team-content" id="team-three">
+                    <h1><?php echo $team_three_name ;?></h1>
+                    <h2><?php echo $team_three_title;?></h2>
+                    <?php echo $team_three_content;?>
+                </div>
+
+                <div class="team-content" id="team-four">
+                    <h1><?php echo $team_four_name ;?></h1>
+                    <h2><?php echo $team_four_title;?></h2>
+                    <?php echo $team_four_content;?>
+                </div>
+
+                <div class="team-content" id="team-five">
+                    <h1><?php echo $team_five_name ;?></h1>
+                    <h2><?php echo $team_five_title;?></h2>
+                    <?php echo $team_five_content;?>
+                </div>
+
+                <div class="team-content" id="team-six">
+                    <h1><?php echo $team_sixth_name ;?></h1>
+                    <h2><?php echo $team_sixth_title;?></h2>
+                    <?php echo $team_sixth_content;?>
+                </div>
+
+                <div class="team-content" id="team-seven">
+                    <h1><?php echo $team_seven_name ;?></h1>
+                    <h2><?php echo $team_seven_title;?></h2>
+                    <?php echo $team_seven_content;?>
+                </div>
+
+                <div class="team-content" id="team-eight">
+                    <h1><?php echo $team_eight_name ;?></h1>
+                    <h2><?php echo $team_eight_title;?></h2>
+                    <?php echo $team_eight_content;?>
+                </div>
+
+                <div class="team-content" id="team-nine">
+                    <h1><?php echo $team_nine_name ;?></h1>
+                    <h2><?php echo $team_nine_title;?></h2>
+                    <?php echo $team_nine_content;?>
+                </div>
+
+                <div class="team-content" id="team-ten">
+                    <h1><?php echo $team_ten_name ;?></h1>
+                    <h2><?php echo $team_ten_title;?></h2>
+                    <?php echo $team_ten_content;?>
+                </div>
+
+                <div class="team-content" id="team-eleven">
+                    <h1><?php echo $team_eleven_name ;?></h1>
+                    <h2><?php echo $team_eleven_title;?></h2>
+                    <?php echo $team_eleven_content;?>
+                </div>
+
+                <!--<div class="team-content" id="team-twelve">
+                    <h1><?php echo $team_twelve_name ;?></h1>
+                    <h2><?php echo $team_twelve_title;?></h2>
+                    <?php echo $team_twelve_content;?>
+                </div>-->
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- End of Team Modal -->

@@ -10,9 +10,9 @@
 
 get_header(); ?>
 
-<div class="container">
+<div id="privacy-page" class="container">
     <div class="row">
-        <div class="col-md-offset-2 col-md-8">
+        <div class="col-md-offset-1 col-md-10">
             <div class="policy-container">
                 <h1>AddoPlay Privacy Policy</h1>
                 <p>Addoplay.com is the website of Addo Play Limited a company registered at The Three Pines, Church Road, Penn, Buckinghamshire. HP10 8EG in the United Kingdom Co Number 09438682 .</p>
