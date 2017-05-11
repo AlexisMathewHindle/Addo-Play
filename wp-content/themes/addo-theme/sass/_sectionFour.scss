@@ -1,7 +1,7 @@
 #section-four {
     background: #f47f41;
     img {
-        max-width: 70% !important;
+        max-width: 100% !important;
         display: block;
         margin: 0 auto;
         @media only screen and (max-width: 992px) {
@@ -34,5 +34,17 @@
     }
     .cloud-btn {
         margin-right: 40px;
+    }
+}
+
+@media all and (max-width: 1199px) {
+    #section-four .content-container {
+        padding-left: 50px;
+
+        .archive-button {
+            .cloud-btn {
+
+            }
+        }
     }
 }
