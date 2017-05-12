@@ -988,107 +988,105 @@ $(document).ready(function() {
 
     // SCRIPT TO FADE BRAND LOGOS TO PRODUCTS ON HOVER //
 
-    $('.brandOne').mouseenter(function() {
-        $('.first-img').fadeOut();
-        $('.second-img').fadeIn('slow');
-    })
-    $('.brandOne').mouseleave(function() {
-        $('.first-img').fadeIn();
-        $('.second-img').fadeOut('slow');
-    })
-
-    $('.brandTwo').mouseenter(function() {
-        $('.third-img').fadeOut('slow');
-        $('.fourth-img').fadeIn('slow');
-    })
-
-    $('.brandTwo').mouseleave(function() {
-        $('.third-img').fadeIn('slow');
-        $('.fourth-img').fadeOut('slow');
-    })
-
-    $('.brandThree').mouseenter(function() {
-        $('.fifth-img').fadeOut('slow');
-        $('.sixth-img').fadeIn('slow');
-    })
-
-    $('.brandThree').mouseleave(function() {
-        $('.fifth-img').fadeIn('slow');
-        $('.sixth-img').fadeOut('slow');
-    })
-
-    $('.brandFour').mouseenter(function() {
-        $('.seventh-img').fadeOut('slow');
-        $('.eigth-img').fadeIn('slow');
-    })
-
-    $('.brandFour').mouseleave(function() {
-        $('.seventh-img').fadeIn('slow');
-        $('.eigth-img').fadeOut('slow');
-    })
-
-    $('.brandFive').mouseenter(function() {
-        $('.nineth-img').fadeOut('slow');
-        $('.tenth-img').fadeIn('slow');
-    })
-
-    $('.brandFive').mouseleave(function() {
-        $('.nineth-img').fadeIn('slow');
-        $('.tenth-img').fadeOut('slow');
-    })
-
-    $('.brandSix').mouseenter(function() {
-        $('.eleventh-img').fadeOut('slow');
-        $('.twelfth-img').fadeIn('slow');
-    })
-
-    $('.brandSix').mouseleave(function() {
-        $('.eleventh-img').fadeIn('slow');
-        $('.twelfth-img').fadeOut('slow');
-    })
-
-    $('.brandSeven').mouseenter(function() {
-        $('.thirteenth-img').fadeOut('slow');
-        $('.fourteenth-img').fadeIn('slow');
-    })
-
-    $('.brandSeven').mouseleave(function() {
-        $('.thirteenth-img').fadeIn('slow');
-        $('.fourteenth-img').fadeOut('slow');
-    })
-
-    $('.brandEight').mouseenter(function() {
-        $('.fifteenth-img').fadeOut('slow');
-        $('.sixteenth-img').fadeIn('slow');
-    })
-
-    $('.brandEight').mouseleave(function() {
-        $('.fifteenth-img').fadeIn('slow');
-        $('.sixteenth-img').fadeOut('slow');
-    })
-
-    $('.brandNine').mouseenter(function() {
-        $('.seventeenth-img').fadeOut('slow');
-        $('.eighteenth-img').fadeIn('slow');
-    })
-
-    $('.brandNine').mouseleave(function() {
-        $('.seventeenth-img').fadeIn('slow');
-        $('.eighteenth-img').fadeOut('slow');
-    })
-
-    $('.brandTen').mouseenter(function() {
-        $('.nineteenth-img').fadeOut('slow');
-        $('.twentieth-img').fadeIn('slow');
-    })
-
-    $('.brandTen').mouseleave(function() {
-        $('.nineteenth-img').fadeIn('slow');
-        $('.twentieth-img').fadeOut('slow');
-    })
+    // $('.brandOne').mouseenter(function() {
+    //     $('.first-img').fadeOut();
+    //     $('.second-img').fadeIn('slow');
+    // })
+    // $('.brandOne').mouseleave(function() {
+    //     $('.first-img').fadeIn();
+    //     $('.second-img').fadeOut('slow');
+    // })
+    //
+    // $('.brandTwo').mouseenter(function() {
+    //     $('.third-img').fadeOut('slow');
+    //     $('.fourth-img').fadeIn('slow');
+    // })
+    //
+    // $('.brandTwo').mouseleave(function() {
+    //     $('.third-img').fadeIn('slow');
+    //     $('.fourth-img').fadeOut('slow');
+    // })
+    //
+    // $('.brandThree').mouseenter(function() {
+    //     $('.fifth-img').fadeOut('slow');
+    //     $('.sixth-img').fadeIn('slow');
+    // })
+    //
+    // $('.brandThree').mouseleave(function() {
+    //     $('.fifth-img').fadeIn('slow');
+    //     $('.sixth-img').fadeOut('slow');
+    // })
+    //
+    // $('.brandFour').mouseenter(function() {
+    //     $('.seventh-img').fadeOut('slow');
+    //     $('.eigth-img').fadeIn('slow');
+    // })
+    //
+    // $('.brandFour').mouseleave(function() {
+    //     $('.seventh-img').fadeIn('slow');
+    //     $('.eigth-img').fadeOut('slow');
+    // })
+    //
+    // $('.brandFive').mouseenter(function() {
+    //     $('.nineth-img').fadeOut('slow');
+    //     $('.tenth-img').fadeIn('slow');
+    // })
+    //
+    // $('.brandFive').mouseleave(function() {
+    //     $('.nineth-img').fadeIn('slow');
+    //     $('.tenth-img').fadeOut('slow');
+    // })
+    //
+    // $('.brandSix').mouseenter(function() {
+    //     $('.eleventh-img').fadeOut('slow');
+    //     $('.twelfth-img').fadeIn('slow');
+    // })
+    //
+    // $('.brandSix').mouseleave(function() {
+    //     $('.eleventh-img').fadeIn('slow');
+    //     $('.twelfth-img').fadeOut('slow');
+    // })
+    //
+    // $('.brandSeven').mouseenter(function() {
+    //     $('.thirteenth-img').fadeOut('slow');
+    //     $('.fourteenth-img').fadeIn('slow');
+    // })
+    //
+    // $('.brandSeven').mouseleave(function() {
+    //     $('.thirteenth-img').fadeIn('slow');
+    //     $('.fourteenth-img').fadeOut('slow');
+    // })
+    //
+    // $('.brandEight').mouseenter(function() {
+    //     $('.fifteenth-img').fadeOut('slow');
+    //     $('.sixteenth-img').fadeIn('slow');
+    // })
+    //
+    // $('.brandEight').mouseleave(function() {
+    //     $('.fifteenth-img').fadeIn('slow');
+    //     $('.sixteenth-img').fadeOut('slow');
+    // })
+    //
+    // $('.brandNine').mouseenter(function() {
+    //     $('.seventeenth-img').fadeOut('slow');
+    //     $('.eighteenth-img').fadeIn('slow');
+    // })
+    //
+    // $('.brandNine').mouseleave(function() {
+    //     $('.seventeenth-img').fadeIn('slow');
+    //     $('.eighteenth-img').fadeOut('slow');
+    // })
+    //
+    // $('.brandTen').mouseenter(function() {
+    //     $('.nineteenth-img').fadeOut('slow');
+    //     $('.twentieth-img').fadeIn('slow');
+    // })
+    //
+    // $('.brandTen').mouseleave(function() {
+    //     $('.nineteenth-img').fadeIn('slow');
+    //     $('.twentieth-img').fadeOut('slow');
+    // })
 
 
 
 }); /* END OF DOCUMENT READY */
-
-
