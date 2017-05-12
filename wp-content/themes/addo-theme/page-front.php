@@ -894,7 +894,8 @@ get_header(); ?>
                                     <img id="star-five" src="<?php bloginfo('template_directory');?>/assets/img/star_fill.png" class="img-responsive" />
                                     <img id="star-six" src="<?php bloginfo('template_directory');?>/assets/img/star_fill.png" class="img-responsive" />
 
-                                    <form action="#">
+                                    <?php
+                                    /*<form action="#">
                                         <div class="form-content">
                                             <input type="text" name="firstname" placeholder="Name" />
                                             <input type="text" name="company" placeholder="Company" />
@@ -904,6 +905,8 @@ get_header(); ?>
                                         <img src="<?php bloginfo('template_directory');?>/assets/img/cloud_submit.png" alt=" " />
                                         <input type="submit" value="send ">
                                     </form>
+                                     * */
+                                    ?>
                                     <?php echo do_shortcode( '[contact-form-7 id="29" title="Main Contact Form"]' ); ?>
                             </div>
                         </div>
