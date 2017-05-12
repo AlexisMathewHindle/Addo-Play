@@ -480,52 +480,32 @@ get_header(); ?>
                         <div class="col-md-3">
                             <div class="brand-container">
                                 <div class="brand-btn brandOne" data-to="1" data-toggle="modal" data-target="#brandSlider">
-<<<<<<< HEAD
-                                    <img src="<?php bloginfo('template_directory');?>/assets/img/brand_one.png" class="img-responsve first-img" alt="Wacky Hair Dough" />
-                                    <img src="<?php bloginfo('template_directory');?>/assets/img/wacky_hair_dough.png" class="img-responsve second-img" alt="Wacky Hair Dough">
-=======
                                     <img src="<?php bloginfo('template_directory');?>/assets/img/-Brand-Images/Addo_Logo_Awesome_Animals.png" class="img-responsve front-img" alt="Awesome Animals" />
                                     <img src="<?php bloginfo('template_directory');?>/assets/img/-Hover-Images/Awesome-Animals-pack.png" class="img-responsve hover-img" alt="Awesome Animals">
->>>>>>> 6cbf72e865f97b69a6d58dd1b5587e84436aab05
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-3 ">
                             <div class="brand-container">
                                 <div class="brand-btn brandTwo" data-to="2" data-toggle="modal" data-target="#brandSlider">
-<<<<<<< HEAD
-                                    <img src="<?php bloginfo('template_directory');?>/assets/img/brand_nine.png" class="img-responsve third-img" alt="Storm Blasters" />
-                                    <img src="<?php bloginfo('template_directory');?>/assets/img/storm_blasters_pack.png" class="img-responsve fourth-img" alt="Storm Blasters">
-=======
                                     <img src="<?php bloginfo('template_directory');?>/assets/img/-Brand-Images/Addo_Logo_Bobble_It.png" class="img-responsve front-img" alt="Bobble It" />
                                     <img src="<?php bloginfo('template_directory');?>/assets/img/-Hover-Images/Bobble-It-pack.png" class="img-responsve hover-img" alt="Bobble-It">
->>>>>>> 6cbf72e865f97b69a6d58dd1b5587e84436aab05
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-3">
                             <div class="brand-container">
                                 <div class="brand-btn brandThree" data-to="3" data-toggle="modal" data-target="#brandSlider">
-<<<<<<< HEAD
-                                    <img src="<?php bloginfo('template_directory');?>/assets/img/brand_ten.png" class="img-responsve fifth-img" alt="Snuggle Bunnies" />
-                                    <img src="<?php bloginfo('template_directory');?>/assets/img/snuggle_buddies_lifestle.png" class="img-responsve sixth-img" alt="Snuggle Bunnies" /> </div>
-=======
                                     <img src="<?php bloginfo('template_directory');?>/assets/img/-Brand-Images/Addo_Logo_Busy_Me.png" class="img-responsve front-img" alt="Busy Me" />
                                     <img src="<?php bloginfo('template_directory');?>/assets/img/-Hover-Images/Busy-Me-pack.png" class="img-responsve hover-img" alt="Busy Me" /> </div>
->>>>>>> 6cbf72e865f97b69a6d58dd1b5587e84436aab05
                             </div>
 
                         </div>
                         <div class="col-md-3">
                             <div class="brand-container">
                                 <div class="brand-btn brandFour" data-to="4" data-toggle="modal" data-target="#brandSlider">
-<<<<<<< HEAD
-                                    <img src="<?php bloginfo('template_directory');?>/assets/img/brand_four.png" class="img-responsve seventh-img" />
-                                    <img src="<?php bloginfo('template_directory');?>/assets/img/toy_fill.png" class="img-responsve eigth-img" alt="" />
-=======
                                     <img src="<?php bloginfo('template_directory');?>/assets/img/-Brand-Images/Addo_Logo_Out_of_the_Box.png" class="img-responsve front-img" alt="Out of the Box" />
                                     <img src="<?php bloginfo('template_directory');?>/assets/img/-Hover-Images/Out-of-the-Box-pack.png" class="img-responsve hover-img" alt="Out of the Box" />
->>>>>>> 6cbf72e865f97b69a6d58dd1b5587e84436aab05
                                 </div>
                             </div>
                         </div>
@@ -534,52 +514,32 @@ get_header(); ?>
                         <div class="col-md-3">
                             <div class="brand-container">
                                 <div class="brand-btn brandFive" data-to="5" data-toggle="modal" data-target="#brandSlider">
-<<<<<<< HEAD
-                                    <img src="<?php bloginfo('template_directory');?>/assets/img/brand_five.png" class="img-responsve nineth-img" />
-                                    <img src="<?php bloginfo('template_directory');?>/assets/img/toy_fill.png" class="img-responsve tenth-img" alt="" />
-=======
                                     <img src="<?php bloginfo('template_directory');?>/assets/img/-Brand-Images/Addo_Logo_Out_There.png" class="img-responsve front-img" alt="Out There"/>
                                     <img src="<?php bloginfo('template_directory');?>/assets/img/-Hover-Images/Out-There-pack.png" class="img-responsve hover-img" alt="Out There" />
->>>>>>> 6cbf72e865f97b69a6d58dd1b5587e84436aab05
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-3">
                             <div class="brand-container">
                                 <div class="brand-btn brandSix" data-to="6" data-toggle="modal" data-target="#brandSlider">
-<<<<<<< HEAD
-                                    <img src="<?php bloginfo('template_directory');?>/assets/img/brand_six.png" class="img-responsve eleventh-img" />
-                                    <img src="<?php bloginfo('template_directory');?>/assets/img/toy_fill.png" class="img-responsve twelfth-img" alt="" />
-=======
                                     <img src="<?php bloginfo('template_directory');?>/assets/img/-Brand-Images/Addo_Logo_Out_to_Impress_Pink.png" class="img-responsve front-img" alt="Out to Impress" />
                                     <img src="<?php bloginfo('template_directory');?>/assets/img/-Hover-Images/Out-to-Impress-pack.png" class="img-responsve hover-img" alt="Out to Impress" />
->>>>>>> 6cbf72e865f97b69a6d58dd1b5587e84436aab05
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-3">
                             <div class="brand-container">
                                 <div class="brand-btn brandSeven" data-to="7" data-toggle="modal" data-target="#brandSlider">
-<<<<<<< HEAD
-                                    <img src="<?php bloginfo('template_directory');?>/assets/img/brand_seven.png" class="img-responsv thirteenth-img" />
-                                    <img src="<?php bloginfo('template_directory');?>/assets/img/toy_fill.png" class="img-responsve fourteenth-img" alt="" />
-=======
                                     <img src="<?php bloginfo('template_directory');?>/assets/img/-Brand-Images/Addo_Logo_Pitter_Patter_Pets.png" class="img-responsv front-img" alt="Pitter Patter Pets" />
                                     <img src="<?php bloginfo('template_directory');?>/assets/img/-Hover-Images/Pitter-Patter-Pets-pack.png" class="img-responsve hover-img" alt="Pitter Patter Pets" />
->>>>>>> 6cbf72e865f97b69a6d58dd1b5587e84436aab05
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-3">
                             <div class="brand-container">
                                 <div class="brand-btn brandEight" data-to="8" data-toggle="modal" data-target="#brandSlider">
-<<<<<<< HEAD
-                                    <img src="<?php bloginfo('template_directory');?>/assets/img/brand_eight.png" class="img-responsve fifteenth-img" />
-                                    <img src="<?php bloginfo('template_directory');?>/assets/img/toy_fill.png" class="img-responsve sixteenth-img" alt="" />
-=======
                                     <img src="<?php bloginfo('template_directory');?>/assets/img/-Brand-Images/Addo_Logo_Ready_Steady_Dough.png" class="img-responsve front-img" alt="Ready Steady Dough" />
                                     <img src="<?php bloginfo('template_directory');?>/assets/img/-Hover-Images/Ready-Steady-Dough-pack.png" class="img-responsve hover-img" alt="Ready Steady Dough" />
->>>>>>> 6cbf72e865f97b69a6d58dd1b5587e84436aab05
                                 </div>
                             </div>
                         </div>
@@ -588,39 +548,24 @@ get_header(); ?>
                         <div class="col-md-3">
                             <div class="brand-container">
                                 <div class="brand-btn brandNine" data-to="9" data-toggle="modal" data-target="#brandSlider">
-<<<<<<< HEAD
-                                    <img src="<?php bloginfo('template_directory');?>/assets/img/brand_two.png" class="img-responsve seventeenth-img" />
-                                    <img src="<?php bloginfo('template_directory');?>/assets/img/toy_fill.png" class="img-responsve eighteenth-img" alt="" />
-=======
                                     <img src="<?php bloginfo('template_directory');?>/assets/img/-Brand-Images/Addo_Logo_Snuggle_Buddies.png" class="img-responsve front-img" />
                                     <img src="<?php bloginfo('template_directory');?>/assets/img/-Hover-Images/Snuggle-Buddies-pack.png" id="snuggle-lifestyle" class="img-responsve hover-img" alt="Snuggle Buddies" />
->>>>>>> 6cbf72e865f97b69a6d58dd1b5587e84436aab05
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-3">
                             <div class="brand-container">
                                 <div class="brand-btn brandTen" data-to="10" data-toggle="modal" data-target="#brandSlider">
-<<<<<<< HEAD
-                                    <img src="<?php bloginfo('template_directory');?>/assets/img/brand_three.png" class="img-responsve nineteenth-img" />
-                                    <img src="<?php bloginfo('template_directory');?>/assets/img/toy_fill.png" class="img-responsve twentieth-img" alt="" />
-=======
                                     <img src="<?php bloginfo('template_directory');?>/assets/img/-Brand-Images/Addo_Logo_Storm_Blasters.png" class="img-responsve front-img" alt="Storm Blasters" />
                                     <img src="<?php bloginfo('template_directory');?>/assets/img/-Hover-Images/Storm-Blasters-pack.png" class="img-responsve hover-img" alt="Storm Blasters" />
->>>>>>> 6cbf72e865f97b69a6d58dd1b5587e84436aab05
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-3">
                             <div class="brand-container">
                                 <div class="brand-btn brandEleven" data-to="11" data-toggle="modal" data-target="#brandSlider">
-<<<<<<< HEAD
-                                    <img src="<?php bloginfo('template_directory');?>/assets/img/coming_soon_fill.png" class="img-responsve twentFirst-img" />
-                                    <img src="<?php bloginfo('template_directory');?>/assets/img/toy_fill.png" class="img-responsve twentySecond-img" alt="" />
-=======
                                     <img src="<?php bloginfo('template_directory');?>/assets/img/-Brand-Images/Addo_Logo_Unique_Boutique.png" class="img-responsve front-img" alt="Unique Boutique"  />
                                     <img src="<?php bloginfo('template_directory');?>/assets/img/-Hover-Images/Unique_Boutique-pack.png" class="img-responsve hover-img" alt="Unique Boutique" />
->>>>>>> 6cbf72e865f97b69a6d58dd1b5587e84436aab05
                                 </div>
                             </div>
                         </div>
