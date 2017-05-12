@@ -176,6 +176,11 @@
 }
 
 #brandsModal {
+
+    .section-container {
+        position: relative !important;
+    }
+
     .close {
         position: fixed;
         top: -14%;
@@ -200,31 +205,75 @@
             right: 0;
             margin: 0 auto;
         }
-        .second-img,
-        .fourth-img,
-        .sixth-img,
-        .eigth-img,
-        .tenth-img,
-        .twelfth-img,
-        .fourteenth-img,
-        .sixteenth-img,
-        .eighteenth-img,
-        .twentieth-img,
-        .twentySecond-img,
-        .twentyFourth-img {
-            display: none;
+        // .second-img,
+        // .fourth-img,
+        // .sixth-img,
+        // .eigth-img,
+        // .tenth-img,
+        // .twelfth-img,
+        // .fourteenth-img,
+        // .sixteenth-img,
+        // .eighteenth-img,
+        // .twentieth-img,
+        // .twentySecond-img,
+        // .twentyFourth-img {
+        //     display: none;
+        // }
+        // .second-img {
+        //     width: auto;
+        //     max-height: 179px;
+        // }
+        // .fourth-img {
+        //     max-width: 80%;
+        //     margin: 20px auto;
+        // }
+        // .sixth-img {
+        //     max-width: 80%;
+        //     margin: 10px auto;
+        // }
+
+        .brand-btn .hover-img {
+            width: auto;
+            max-height: 160px;
+            max-width: 185px;
+            z-index: 0;
+            opacity: 0;
+            transition: all 0.5s ease-in-out;
+            -webkit-transition: all 0.5s ease-in-out;
+            -ms-transition: all 0.5s ease-in-out;
+            margin-top: 25px;
         }
-        .second-img {
-            max-width: 70%;
+
+        #snuggle-lifestyle {
+            border-radius: 100px;
         }
-        .fourth-img {
-            max-width: 80%;
-            margin: 20px auto;
+
+        .front-img {
+                transition: all 0.5s ease-in-out;
+                -webkit-transition: all 0.5s ease-in-out;
+                -ms-transition: all 0.5s ease-in-out;
+                z-index: 10;
+                width: 100%;
+                max-height: none;
+
+            &:hover {
+                opacity: 0;
+            }
+
+            &:hover + .hover-img{
+                opacity: 1;
+            }
         }
-        .sixth-img {
-            max-width: 80%;
-            margin: 10px auto;
+
+        .img-stay {
+            opacity: 1 !important
         }
+    }
+
+    .modal-dialog {
+        padding: 39px;
+        margin: 0;
+        height: 100%;
     }
 }
 
@@ -239,8 +288,8 @@ img {
     left: 50%;
     transform: translate(-50%, -47%) !important;
     width: 90%;
-    margin: 30px auto;
-    height: 80vh;
+    // margin: 30px auto;
+    // height: 80vh;
     .modal-content {
         background-color: transparent;
         border: none;
@@ -393,8 +442,8 @@ img {
         left: -10%;
         width: 39%;
         z-index: -100;
-        ;
     }
+
     #cloud-two {
         position: absolute;
         bottom: -5%;
@@ -515,7 +564,7 @@ img {
             font-family: "ff-cocon-web-pro";
             padding: 3px;
         }
-         ::-moz-placeholder {
+         :-moz-placeholder {
             /* Firefox 19+ */
             color: $pink;
             font-size: 15px;
@@ -528,6 +577,20 @@ img {
             font-size: 15px;
             font-family: "ff-cocon-web-pro";
             padding: 3px;
+        }
+    }
+}
+
+
+
+@media all and (max-width: 992px) {
+    #brandsModal {
+        .brand-container {
+            height: auto;
+
+            .front-img {
+                position: relative;
+            }
         }
     }
 }
