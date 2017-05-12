@@ -4,8 +4,8 @@
       <div id="feature-container-inner" class="container">
           <img data-src="<?php bloginfo('template_directory');?>/assets/img/Addo-Play-Logo.png" />
       </div>
-      <h1 class="text-center">
-          <span class="element"></span>
+      <h1 class="text-center" ct-sequence="cool95 | cool101 | cool203" ct-config="cycle pause-on-mouseover, resume-on-mouseout">
+         Inspiring play
       </h1>
       <div class="flags-container">
           <ul class="flags-list">

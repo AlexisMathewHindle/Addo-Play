@@ -5,7 +5,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <div class="map-container">
+                    <div class="map-container tmp">
                         <img id="cloud-one" data-src="<?php bloginfo('template_directory');?>/assets/img/cloud.png" class="img-responsive" />
                         <img id="cloud-two" data-src="<?php bloginfo('template_directory');?>/assets/img/cloud.png" class="img-responsive" />
                         <img id="cloud-three" data-src="<?php bloginfo('template_directory');?>/assets/img/cloud.png" class="img-responsive" />
