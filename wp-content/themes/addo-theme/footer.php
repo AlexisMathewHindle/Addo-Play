@@ -53,6 +53,30 @@
     <script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/vendor/jquery.slotmachine.min.js"></script>
     <script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/vendor/typed.min.js"></script>
     <script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/main.js "></script>
+    <script>
+        (function($) {
+            $("#txt-switch").cooltext({
+                sequence:[
+                    {action:"update", text:"Toys for everyday play"},
+                    {action:"animation", animation:"cool37", stagger:50 },
+                    {action:"animation", animation:"cool257", stagger:50 },
+                    {action:"update", text:"Available worldwide"},
+                    {action:"animation", animation:"cool37", stagger:50 },
+                    {action:"animation", animation:"cool257", stagger:50 },
+                    {action:"update", text:"Outstanding value"},
+                    {action:"animation", animation:"cool37", stagger:50 },
+                    {action:"animation", animation:"cool257", stagger:50 },
+                    {action:"update", text:"Intelligent and thoughtful design"},
+                    {action:"animation", animation:"cool37", stagger:50 },
+                    {action:"animation", animation:"cool257", stagger:50 },
+                    {action:"update", text:"Inspiring play"},
+                    {action:"animation", animation:"cool37", stagger:50 },
+                    {action:"animation", animation:"cool257", stagger:50 }
+                ],
+                cycle:true
+             });
+        })(jQuery);
+        </script>
 </body>
 
 </html>
