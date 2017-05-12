@@ -150,7 +150,7 @@ get_header(); ?>
                     <div>
                         <div class="container">
                             <div class="row">
-                                <div class="col-xs-offset-1 col-xs-6 staff-row">
+                                <div class="col-xs-offset-1 col-xs-11 col-md-5">
                                     <div class="col-xs-4">
                                         <img class="svg-img" id="teamOne" src="<?php bloginfo('template_directory');?>/assets/img/-Team/Dave.jpg" alt="Dave Character" />
                                     </div>
@@ -161,7 +161,7 @@ get_header(); ?>
                                         <img class="svg-img" id="teamThree" src="<?php bloginfo('template_directory');?>/assets/img/-Team/Janet.jpg" alt="Janet Character" />
                                     </div>
                                 </div>
-                                <div class="col-xs-6 staff-row">
+                                <div class="col-xs-11 col-md-5">
                                     <div class="col-xs-4">
                                         <img class="svg-img lower" id="teamFour" src="<?php bloginfo('template_directory');?>/assets/img/-Team/Andy C.jpg" alt="Andy C Character" />
                                     </div>
@@ -178,7 +178,7 @@ get_header(); ?>
                     <div>
                         <div class="container">
                             <div class="row">
-                                <div class="col-xs-offset-1 col-xs-6 staff-row">
+                                <div class="col-xs-offset-1 col-xs-5">
                                     <div class="col-xs-4">
                                         <img class="svg-img" id="teamSeven" src="<?php bloginfo('template_directory');?>/assets/img/-Team/Isabelle.jpg" alt="Isabelle Character" />
                                     </div>
@@ -189,7 +189,7 @@ get_header(); ?>
                                         <img class="svg-img" id="teamNine" src="<?php bloginfo('template_directory');?>/assets/img/-Team/Andy T.jpg" alt="Andy T Character" />
                                     </div>
                                 </div>
-                                <div class="col-xs-6 staff-row">
+                                <div class="col-xs-5">
                                     <div class="col-xs-4">
                                         <img class="svg-img lower" id="teamTen" src="<?php bloginfo('template_directory');?>/assets/img/-Team/Kirsty.jpg" alt="Janet Character" />
                                     </div>
@@ -206,7 +206,7 @@ get_header(); ?>
                     <div>
                         <div class="container">
                             <div class="row">
-                                <div class="col-xs-offset-1 col-xs-6 staff-row">
+                                <div class="col-xs-offset-1 col-xs-5">
                                     <div class="col-xs-4">
                                         <img class="svg-img" id="teamThirteen" src="<?php bloginfo('template_directory');?>/assets/img/-Team/Stefan.jpg" alt="Stefan Character" />
                                     </div>
@@ -217,7 +217,7 @@ get_header(); ?>
                                         <img class="svg-img" id="teamFifteen" src="<?php bloginfo('template_directory');?>/assets/img/-Team/Jogy.jpg" alt="Jogy Character" />
                                     </div>
                                 </div>
-                                <div class="col-xs-6 staff-row">
+                                <div class="col-xs-5">
                                     <div class="col-xs-4">
                                         <img class="svg-img lower" id="teamSixteen" src="<?php bloginfo('template_directory');?>/assets/img/-Team/Patrick.jpg" alt="Patrick Character" />
                                     </div>
@@ -234,7 +234,7 @@ get_header(); ?>
                     <div>
                         <div class="container">
                             <div class="row">
-                                <div class="col-xs-offset-1 col-xs-6 staff-row">
+                                <div class="col-xs-offset-1 col-xs-5">
                                     <div class="col-xs-4">
                                         <img class="svg-img" id="teamNineteen" src="<?php bloginfo('template_directory');?>/assets/img/-Team/Vader.jpg" alt="Vader Character" />
                                     </div>
@@ -245,7 +245,7 @@ get_header(); ?>
                                         <img class="svg-img" id="teamFifteen" src="<?php bloginfo('template_directory');?>/assets/img/-Team/Andy T.jpg" alt="Andy T Character" />
                                     </div> -->
                                 </div>
-                                <!-- <div class="col-xs-6">
+                                <!-- <div class="col-xs-5">
                                     <div class="col-xs-3">
                                         <img class="svg-img lower" id="teamSixteen" src="<?php bloginfo('template_directory');?>/assets/img/-Team/Kirsty.jpg" alt="Janet Character" />
                                     </div>
@@ -479,32 +479,32 @@ get_header(); ?>
                         <div class="col-md-3">
                             <div class="brand-container">
                                 <div class="brand-btn brandOne" data-to="1" data-toggle="modal" data-target="#brandSlider">
-                                    <img src="<?php bloginfo('template_directory');?>/assets/img/brand_one.png" class="img-responsve first-img" alt="Awesome Animals" />
-                                    <img src="<?php bloginfo('template_directory');?>/assets/img/-Hover-Images/Awesome-Animals-pack.png" class="img-responsve second-img" alt="Awesome Animals">
+                                    <img src="<?php bloginfo('template_directory');?>/assets/img/brand_one.png" class="img-responsve first-img" alt="Wacky Hair Dough" />
+                                    <img src="<?php bloginfo('template_directory');?>/assets/img/wacky_hair_dough.png" class="img-responsve second-img" alt="Wacky Hair Dough">
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-3 ">
                             <div class="brand-container">
                                 <div class="brand-btn brandTwo" data-to="2" data-toggle="modal" data-target="#brandSlider">
-                                    <img src="<?php bloginfo('template_directory');?>/assets/img/brand_nine.png" class="img-responsve third-img" alt="Bobble It" />
-                                    <img src="<?php bloginfo('template_directory');?>/assets/img/-Hover-Images/Bobble-It-pack.png" class="img-responsve fourth-img" alt="Bobble-It">
+                                    <img src="<?php bloginfo('template_directory');?>/assets/img/brand_nine.png" class="img-responsve third-img" alt="Storm Blasters" />
+                                    <img src="<?php bloginfo('template_directory');?>/assets/img/storm_blasters_pack.png" class="img-responsve fourth-img" alt="Storm Blasters">
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-3">
                             <div class="brand-container">
                                 <div class="brand-btn brandThree" data-to="3" data-toggle="modal" data-target="#brandSlider">
-                                    <img src="<?php bloginfo('template_directory');?>/assets/img/brand_ten.png" class="img-responsve fifth-img" alt="Busy Me" />
-                                    <img src="<?php bloginfo('template_directory');?>/assets/img/-Hover-Images/Busy-Me-pack.png" class="img-responsve sixth-img" alt="Busy Me" /> </div>
+                                    <img src="<?php bloginfo('template_directory');?>/assets/img/brand_ten.png" class="img-responsve fifth-img" alt="Snuggle Bunnies" />
+                                    <img src="<?php bloginfo('template_directory');?>/assets/img/snuggle_buddies_lifestle.png" class="img-responsve sixth-img" alt="Snuggle Bunnies" /> </div>
                             </div>
 
                         </div>
                         <div class="col-md-3">
                             <div class="brand-container">
                                 <div class="brand-btn brandFour" data-to="4" data-toggle="modal" data-target="#brandSlider">
-                                    <img src="<?php bloginfo('template_directory');?>/assets/img/brand_four.png" class="img-responsve seventh-img" alt="Out of the Box" />
-                                    <img src="<?php bloginfo('template_directory');?>/assets/img/-Hover-Images/Out-of-the-Box-pack.png" class="img-responsve eigth-img" alt="Out of the Box" />
+                                    <img src="<?php bloginfo('template_directory');?>/assets/img/brand_four.png" class="img-responsve seventh-img" />
+                                    <img src="<?php bloginfo('template_directory');?>/assets/img/toy_fill.png" class="img-responsve eigth-img" alt="" />
                                 </div>
                             </div>
                         </div>
@@ -513,32 +513,32 @@ get_header(); ?>
                         <div class="col-md-3">
                             <div class="brand-container">
                                 <div class="brand-btn brandFive" data-to="5" data-toggle="modal" data-target="#brandSlider">
-                                    <img src="<?php bloginfo('template_directory');?>/assets/img/brand_five.png" class="img-responsve nineth-img" alt="Out There"/>
-                                    <img src="<?php bloginfo('template_directory');?>/assets/img/-Hover-Images/Out-There-pack.png" class="img-responsve tenth-img" alt="Out There" />
+                                    <img src="<?php bloginfo('template_directory');?>/assets/img/brand_five.png" class="img-responsve nineth-img" />
+                                    <img src="<?php bloginfo('template_directory');?>/assets/img/toy_fill.png" class="img-responsve tenth-img" alt="" />
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-3">
                             <div class="brand-container">
                                 <div class="brand-btn brandSix" data-to="6" data-toggle="modal" data-target="#brandSlider">
-                                    <img src="<?php bloginfo('template_directory');?>/assets/img/brand_six.png" class="img-responsve eleventh-img" alt="Out to Impress" />
-                                    <img src="<?php bloginfo('template_directory');?>/assets/img/-Hover-Images/Out-to-Impress.png" class="img-responsve twelfth-img" alt="Out to Impress" />
+                                    <img src="<?php bloginfo('template_directory');?>/assets/img/brand_six.png" class="img-responsve eleventh-img" />
+                                    <img src="<?php bloginfo('template_directory');?>/assets/img/toy_fill.png" class="img-responsve twelfth-img" alt="" />
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-3">
                             <div class="brand-container">
                                 <div class="brand-btn brandSeven" data-to="7" data-toggle="modal" data-target="#brandSlider">
-                                    <img src="<?php bloginfo('template_directory');?>/assets/img/brand_seven.png" class="img-responsv thirteenth-img" alt="Pitter Patter Pets" />
-                                    <img src="<?php bloginfo('template_directory');?>/assets/img/-Hover-Images/Pitter-Patter-Pets-pack.png" class="img-responsve fourteenth-img" alt="Pitter Patter Pets" />
+                                    <img src="<?php bloginfo('template_directory');?>/assets/img/brand_seven.png" class="img-responsv thirteenth-img" />
+                                    <img src="<?php bloginfo('template_directory');?>/assets/img/toy_fill.png" class="img-responsve fourteenth-img" alt="" />
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-3">
                             <div class="brand-container">
                                 <div class="brand-btn brandEight" data-to="8" data-toggle="modal" data-target="#brandSlider">
-                                    <img src="<?php bloginfo('template_directory');?>/assets/img/brand_eight.png" class="img-responsve fifteenth-img" alt="Ready Steady Dough" />
-                                    <img src="<?php bloginfo('template_directory');?>/assets/img/-Hover-Images/Ready-Steady-Dough-pack.png" class="img-responsve sixteenth-img" alt="Ready Steady Dough" />
+                                    <img src="<?php bloginfo('template_directory');?>/assets/img/brand_eight.png" class="img-responsve fifteenth-img" />
+                                    <img src="<?php bloginfo('template_directory');?>/assets/img/toy_fill.png" class="img-responsve sixteenth-img" alt="" />
                                 </div>
                             </div>
                         </div>
@@ -548,23 +548,23 @@ get_header(); ?>
                             <div class="brand-container">
                                 <div class="brand-btn brandNine" data-to="9" data-toggle="modal" data-target="#brandSlider">
                                     <img src="<?php bloginfo('template_directory');?>/assets/img/brand_two.png" class="img-responsve seventeenth-img" />
-                                    <img src="<?php bloginfo('template_directory');?>/assets/img/-Hover-Images/Snuggle-Buddies-pack.png" class="img-responsve eighteenth-img" alt="Snuggle Buddies" />
+                                    <img src="<?php bloginfo('template_directory');?>/assets/img/toy_fill.png" class="img-responsve eighteenth-img" alt="" />
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-3">
                             <div class="brand-container">
                                 <div class="brand-btn brandTen" data-to="10" data-toggle="modal" data-target="#brandSlider">
-                                    <img src="<?php bloginfo('template_directory');?>/assets/img/brand_three.png" class="img-responsve nineteenth-img" alt="Storm Blasters" />
-                                    <img src="<?php bloginfo('template_directory');?>/assets/img/-Hover-Images/Storm-Blasters-pack.png" class="img-responsve twentieth-img" alt="Storm Blasters" />
+                                    <img src="<?php bloginfo('template_directory');?>/assets/img/brand_three.png" class="img-responsve nineteenth-img" />
+                                    <img src="<?php bloginfo('template_directory');?>/assets/img/toy_fill.png" class="img-responsve twentieth-img" alt="" />
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-3">
                             <div class="brand-container">
                                 <div class="brand-btn brandEleven" data-to="11" data-toggle="modal" data-target="#brandSlider">
-                                    <img src="<?php bloginfo('template_directory');?>/assets/img/coming_soon_fill.png" class="img-responsve twentFirst-img" alt="Unique Boutique"  />
-                                    <img src="<?php bloginfo('template_directory');?>/assets/img/-Hover-Images/Unique_Boutique-pack.png" class="img-responsve twentySecond-img" alt="Unique Boutique" />
+                                    <img src="<?php bloginfo('template_directory');?>/assets/img/coming_soon_fill.png" class="img-responsve twentFirst-img" />
+                                    <img src="<?php bloginfo('template_directory');?>/assets/img/toy_fill.png" class="img-responsve twentySecond-img" alt="" />
                                 </div>
                             </div>
                         </div>
