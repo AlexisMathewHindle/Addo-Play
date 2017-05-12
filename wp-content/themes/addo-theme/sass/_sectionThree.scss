@@ -1,4 +1,20 @@
 #section-three {
+
+    .section-container {
+        top: 43%;
+    }
+
+    button {
+        color: #ffffff !important;
+        background: #6cbfe8;
+        padding: 18px 38px;
+        font-size: 16px;
+    }
+
+    #js-seeBrands {
+        color: #ffffff !important;
+    }
+
     background: #ffd105;
     .image-top {
         // margin-top: 14%;
@@ -25,6 +41,15 @@
         right: 30%;
         opacity: 0;
     }
+
+    .image-sign {
+        position: absolute;
+        bottom: -14%;
+        right: 4%;
+        transform: rotate(5deg);
+        /* opacity: 0; */
+    }
+
     .js-animate--top {
         top: 0;
         opacity: 1;
@@ -56,8 +81,9 @@
     }
     .btn-group-randomize {
         position: absolute;
-        top: -67px;
-        left: 38px;
+        top: -38px;
+        right: 0;
+        // left: 38px;
     }
     #mobile-brands {
         height: auto;
@@ -70,7 +96,7 @@
         }
     }
     #randomize {
-        height: 390px;
+        height: 350px;
         width: 100%;
         margin-top: 10%;
         background: #f5b12a;
@@ -103,10 +129,13 @@
         margin: 0 auto;
         margin-top: 30px;
         width: auto;
+        top: 14px;
     }
+
     .btn-group-randomize div {
         width: auto !important;
     }
+
     .ranomizeButton {
         border: 0;
         outline: 0;
@@ -115,6 +144,7 @@
         height: 50px;
         width: 150px;
         cursor: pointer;
+        padding: 15px 22px;
         border-radius: 50%;
         box-shadow: 0 6px 0 3px #3288b3, 0 12px 0 7px #423a2c, 0 18px 6px 8px rgba(0, 0, 0, 0.2);
         transition: 200ms;
@@ -134,12 +164,23 @@
 
     .randomizeMachine {
         width: 100%;
-        height: 27vh;
+        height: 300px;
         display: block;
-        max-height: 204px;
-        margin: 50% auto;
-        border-radius: 30%;
+        max-height: 280px;
+        // margin: 50% auto;
+        margin: 20px 0;
+
+        img {
+            padding: 10px 0;
+        }
+        // border-radius: 30%;
+
+        .slotMachineContainer {
+            top: -32px;
+            position: relative;
+        }
     }
+
     .content-container {
         width: 100%;
         height: 100%;
@@ -176,9 +217,9 @@
 
 @media all and (max-width: 1199px) {
     #section-three {
-        #slot-col-1 {
-            display: none;
-        }
+        // #slot-col-1 {
+        //     display: none;
+        // }
 
         #slot-col-2,
         #slot-col-3,
@@ -186,9 +227,9 @@
             width: 33.333%
         }
 
-        .btn-group-randomize {
-            left: 18px;
-        }
+        // .btn-group-randomize {
+        //     left: 18px;
+        // }
 
         .content-container {
             padding-left: 50px;
@@ -214,31 +255,45 @@
                 display: inline-block;
             }
 
-            #slot-col-2,
-            #slot-col-3,
-            #slot-col-4 {
-                width: 25%
-            }
+            // #slot-col-2,
+            // #slot-col-3,
+            // #slot-col-4 {
+            //     width: 25%
+            // }
 
         .randomizeMachine {
-            max-height: 220px;
+            max-height: 350px;
             margin: 40px 0;
-            height: 220px;
+            height: 420px;
         }
 
-        .btn-group-randomize {
-            left: 38px;
+        .slotMachineContainer {
+            top: -65px;
         }
+
+        // .btn-group-randomize {
+        //     left: 38px;
+        // }
 
         #randomize {
             padding: 0 50px;
+            height: 450px;
+        }
+
+        .btn-group-randomize {
+            top: 30px;
         }
 
         .content-container {
             padding: 0;
             max-width: none;
-            margin: 50px 0;
+          margin: 130px 0 50px;
             text-align: center;
+        }
+
+        .btn-group-randomize {
+            right: 40px;
+            top: 25px;
         }
     }
 }
@@ -247,6 +302,10 @@
   #section-three {
     .content-container {
       margin: 120px 0;
+    }
+
+    .container {
+        padding: 70px;
     }
   }
 }

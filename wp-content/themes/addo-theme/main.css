@@ -383,6 +383,15 @@
 
 #section-three {
   background: #ffd105; }
+  #section-three .section-container {
+    top: 43%; }
+  #section-three button {
+    color: #ffffff !important;
+    background: #6cbfe8;
+    padding: 18px 38px;
+    font-size: 16px; }
+  #section-three #js-seeBrands {
+    color: #ffffff !important; }
   #section-three .image-top {
     position: absolute;
     top: -33.7%;
@@ -398,6 +407,12 @@
     bottom: -33%;
     right: 30%;
     opacity: 0; }
+  #section-three .image-sign {
+    position: absolute;
+    bottom: -14%;
+    right: 4%;
+    transform: rotate(5deg);
+    /* opacity: 0; */ }
   #section-three .js-animate--top {
     top: 0;
     opacity: 1;
@@ -425,8 +440,8 @@
     position: relative; }
   #section-three .btn-group-randomize {
     position: absolute;
-    top: -67px;
-    left: 38px; }
+    top: -38px;
+    right: 0; }
   #section-three #mobile-brands {
     height: auto;
     padding: 15px; }
@@ -436,7 +451,7 @@
       #section-three #mobile-brands {
         display: none; } }
   #section-three #randomize {
-    height: 390px;
+    height: 350px;
     width: 100%;
     margin-top: 10%;
     background: #f5b12a;
@@ -463,7 +478,8 @@
   #section-three .btn-group-randomize {
     margin: 0 auto;
     margin-top: 30px;
-    width: auto; }
+    width: auto;
+    top: 14px; }
   #section-three .btn-group-randomize div {
     width: auto !important; }
   #section-three .ranomizeButton {
@@ -474,6 +490,7 @@
     height: 50px;
     width: 150px;
     cursor: pointer;
+    padding: 15px 22px;
     border-radius: 50%;
     box-shadow: 0 6px 0 3px #3288b3, 0 12px 0 7px #423a2c, 0 18px 6px 8px rgba(0, 0, 0, 0.2);
     transition: 200ms;
@@ -488,11 +505,15 @@
     background: none; }
   #section-three .randomizeMachine {
     width: 100%;
-    height: 27vh;
+    height: 300px;
     display: block;
-    max-height: 204px;
-    margin: 50% auto;
-    border-radius: 30%; }
+    max-height: 280px;
+    margin: 20px 0; }
+    #section-three .randomizeMachine img {
+      padding: 10px 0; }
+    #section-three .randomizeMachine .slotMachineContainer {
+      top: -32px;
+      position: relative; }
   #section-three .content-container {
     width: 100%;
     height: 100%;
@@ -511,14 +532,10 @@
     margin-left: 20px; }
 
 @media all and (max-width: 1199px) {
-  #section-three #slot-col-1 {
-    display: none; }
   #section-three #slot-col-2,
   #section-three #slot-col-3,
   #section-three #slot-col-4 {
     width: 33.333%; }
-  #section-three .btn-group-randomize {
-    left: 18px; }
   #section-three .content-container {
     padding-left: 50px; }
   #section-three .btn-slot-small .ranomizeButton {
@@ -531,27 +548,31 @@
 @media all and (max-width: 992px) {
   #section-three #slot-col-1 {
     display: inline-block; }
-  #section-three #slot-col-2,
-  #section-three #slot-col-3,
-  #section-three #slot-col-4 {
-    width: 25%; }
   #section-three .randomizeMachine {
-    max-height: 220px;
+    max-height: 350px;
     margin: 40px 0;
-    height: 220px; }
-  #section-three .btn-group-randomize {
-    left: 38px; }
+    height: 420px; }
+  #section-three .slotMachineContainer {
+    top: -65px; }
   #section-three #randomize {
-    padding: 0 50px; }
+    padding: 0 50px;
+    height: 450px; }
+  #section-three .btn-group-randomize {
+    top: 30px; }
   #section-three .content-container {
     padding: 0;
     max-width: none;
-    margin: 50px 0;
-    text-align: center; } }
+    margin: 130px 0 50px;
+    text-align: center; }
+  #section-three .btn-group-randomize {
+    right: 40px;
+    top: 25px; } }
 
 @media all and (max-width: 767px) {
   #section-three .content-container {
-    margin: 120px 0; } }
+    margin: 120px 0; }
+  #section-three .container {
+    padding: 70px; } }
 
 @media all and (max-width: 680px) {
   #section-three .image-top img {
@@ -605,8 +626,6 @@
   @media only screen and (max-width: 840px) {
     .teamSlider {
       display: none !important; } }
-  .teamSlider .col-xs-offset-1 {
-    margin-left: 4.333333%; }
   .teamSlider .fa-angle-left {
     position: absolute;
     left: 0;
@@ -633,14 +652,18 @@
 
 /* REPLACED MODAL STYLE - NICO */
 .svg-hover {
-  filter: drop-shadow(0 10px 10px rgba(254, 254, 254, 0.9)); }
+  filter: drop-shadow(0 5px 5px rgba(254, 254, 254, 0.8)); }
 
 .slick-slide img {
   margin: 0 auto;
   border-radius: 100px; }
 
 .slick-slide .container {
-  height: 170px; }
+  height: 170px;
+  width: auto; }
+
+.slick-slide .row {
+  margin: 0 10px; }
 
 .lower {
   margin-top: 60px !important; }
@@ -658,10 +681,14 @@
   width: 100%;
   padding: 0 150px; }
   .team-content h1 {
-    text-align: center; }
+    text-align: center;
+    color: #ffd105; }
   @media only screen and (max-width: 840px) {
     .team-content {
       display: none; } }
+
+.staff-row {
+  margin: 20px 0; }
 
 .js-team-content {
   opacity: 1;

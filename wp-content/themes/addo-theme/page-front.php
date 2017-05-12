@@ -150,7 +150,7 @@ get_header(); ?>
                     <div>
                         <div class="container">
                             <div class="row">
-                                <div class="col-xs-offset-1 col-xs-5">
+                                <div class="col-xs-offset-1 col-xs-6 staff-row">
                                     <div class="col-xs-4">
                                         <img class="svg-img" id="teamOne" src="<?php bloginfo('template_directory');?>/assets/img/-Team/Dave.jpg" alt="Dave Character" />
                                     </div>
@@ -161,7 +161,7 @@ get_header(); ?>
                                         <img class="svg-img" id="teamThree" src="<?php bloginfo('template_directory');?>/assets/img/-Team/Janet.jpg" alt="Janet Character" />
                                     </div>
                                 </div>
-                                <div class="col-xs-5">
+                                <div class="col-xs-6 staff-row">
                                     <div class="col-xs-4">
                                         <img class="svg-img lower" id="teamFour" src="<?php bloginfo('template_directory');?>/assets/img/-Team/Andy C.jpg" alt="Andy C Character" />
                                     </div>
@@ -178,7 +178,7 @@ get_header(); ?>
                     <div>
                         <div class="container">
                             <div class="row">
-                                <div class="col-xs-offset-1 col-xs-5">
+                                <div class="col-xs-offset-1 col-xs-6 staff-row">
                                     <div class="col-xs-4">
                                         <img class="svg-img" id="teamSeven" src="<?php bloginfo('template_directory');?>/assets/img/-Team/Isabelle.jpg" alt="Isabelle Character" />
                                     </div>
@@ -189,7 +189,7 @@ get_header(); ?>
                                         <img class="svg-img" id="teamNine" src="<?php bloginfo('template_directory');?>/assets/img/-Team/Andy T.jpg" alt="Andy T Character" />
                                     </div>
                                 </div>
-                                <div class="col-xs-5">
+                                <div class="col-xs-6 staff-row">
                                     <div class="col-xs-4">
                                         <img class="svg-img lower" id="teamTen" src="<?php bloginfo('template_directory');?>/assets/img/-Team/Kirsty.jpg" alt="Janet Character" />
                                     </div>
@@ -206,7 +206,7 @@ get_header(); ?>
                     <div>
                         <div class="container">
                             <div class="row">
-                                <div class="col-xs-offset-1 col-xs-5">
+                                <div class="col-xs-offset-1 col-xs-6 staff-row">
                                     <div class="col-xs-4">
                                         <img class="svg-img" id="teamThirteen" src="<?php bloginfo('template_directory');?>/assets/img/-Team/Stefan.jpg" alt="Stefan Character" />
                                     </div>
@@ -217,7 +217,7 @@ get_header(); ?>
                                         <img class="svg-img" id="teamFifteen" src="<?php bloginfo('template_directory');?>/assets/img/-Team/Jogy.jpg" alt="Jogy Character" />
                                     </div>
                                 </div>
-                                <div class="col-xs-5">
+                                <div class="col-xs-6 staff-row">
                                     <div class="col-xs-4">
                                         <img class="svg-img lower" id="teamSixteen" src="<?php bloginfo('template_directory');?>/assets/img/-Team/Patrick.jpg" alt="Patrick Character" />
                                     </div>
@@ -234,7 +234,7 @@ get_header(); ?>
                     <div>
                         <div class="container">
                             <div class="row">
-                                <div class="col-xs-offset-1 col-xs-5">
+                                <div class="col-xs-offset-1 col-xs-6 staff-row">
                                     <div class="col-xs-4">
                                         <img class="svg-img" id="teamNineteen" src="<?php bloginfo('template_directory');?>/assets/img/-Team/Vader.jpg" alt="Vader Character" />
                                     </div>
@@ -245,7 +245,7 @@ get_header(); ?>
                                         <img class="svg-img" id="teamFifteen" src="<?php bloginfo('template_directory');?>/assets/img/-Team/Andy T.jpg" alt="Andy T Character" />
                                     </div> -->
                                 </div>
-                                <!-- <div class="col-xs-5">
+                                <!-- <div class="col-xs-6">
                                     <div class="col-xs-3">
                                         <img class="svg-img lower" id="teamSixteen" src="<?php bloginfo('template_directory');?>/assets/img/-Team/Kirsty.jpg" alt="Janet Character" />
                                     </div>
